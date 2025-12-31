@@ -123,13 +123,13 @@ export default function Home() {
             {/* Logo */}
             <div className="flex items-center gap-2">
               <img
-                src="/images/logos/logo.svg"
+                src="/images/logos/logo2.svg"
                 alt="BellezaInfinita Logo"
                 className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 object-contain"
               />
               <div>
                 <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-pink-500">
-                  BellezaInfinita
+                  GlossyCandy
                 </h1>
               </div>
             </div>
@@ -402,12 +402,12 @@ export default function Home() {
             {
               name: "Pinzas de Depilar Pusheen",
               price: "2,50",
-              image: "/images/products/novedades/Algodón de Azúcar.svg",
+              image: "/images/products/novedades/colores.svg",
             },
             {
               name: "Colorete Mágico PH",
               price: "3,50",
-              image: "/images/products/novedades/Glossy Candy1.svg",
+              image: "/images/products/novedades/ambientador.svg",
             },
             {
               name: "Ambientador de Coche Batido de Fresa Kawaii",
