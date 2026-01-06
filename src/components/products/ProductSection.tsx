@@ -17,15 +17,17 @@ export function ProductSection({
   const bgClass = variant === "gray" ? "bg-gray-50" : "";
 
   return (
-    <section id={id} className={`container mx-auto px-4 py-12 ${bgClass}`}>
-      <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold mb-2">{title}</h2>
-        <div className="w-24 h-1 bg-pink-500 mx-auto" />
-      </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
-        {products.map((product, idx) => (
-          <ProductCard key={idx} product={product} />
-        ))}
+    <section id={id} className={`py-12 ${bgClass}`}>
+      <div className="max-w-[1200px] mx-auto px-4">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-bold mb-2">{title}</h2>
+          <div className="w-24 h-1 bg-pink-500 mx-auto" />
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+          {products.map((product, idx) => (
+            <ProductCard key={idx} product={product} />
+          ))}
+        </div>
       </div>
     </section>
   );
