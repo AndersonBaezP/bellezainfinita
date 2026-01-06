@@ -51,6 +51,10 @@ export default {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))'
         }
+},
+      fontFamily: {
+        'nunito': ['Nunito', 'sans-serif'],
+'bubblegum': ['var(--font-bubblegum), cursive'],
       },
       borderRadius: {
         lg: 'var(--radius)',
