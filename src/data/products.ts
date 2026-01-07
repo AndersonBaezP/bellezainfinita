@@ -1,4 +1,7 @@
-// Tipos e interfaces
+/**
+ * Tipos e interfaces para la tienda GlossyCandy
+ */
+
 export interface Product {
   id: string;
   name: string;
@@ -8,9 +11,6 @@ export interface Product {
   description?: string;
   content?: string;
 }
-
-// Número de WhatsApp para compras (cambiar por el número real)
-export const WHATSAPP_NUMBER = "593997393838"; // Formato: código país + número sin espacios ni guiones
 
 export interface CarouselImage {
   src: string;
@@ -25,16 +25,20 @@ export interface NavigationItem {
 export interface Category {
   name: string;
   icon: string;
-  gradient: string;
   href: string;
 }
 
+/**
+ * Número de WhatsApp para compras
+ * Formato: código país + número sin espacios ni guiones
+ */
+export const WHATSAPP_NUMBER = "593997393838";
+
 // Imágenes del carrusel
 export const carouselImages: CarouselImage[] = [
-  { src: "/images/carousel/imagen1.jpg", alt: "Paleta de sombras 1" },
-  { src: "/images/carousel/imagen2.jpg", alt: "Paleta de sombras 2" },
-  { src: "/images/carousel/imagen3.jpg", alt: "Paleta de sombras 3" },
-  { src: "/images/carousel/imagen4.jpg", alt: "Paleta de sombras 4" },
+  { src: "/images/carousel/carpor.jpg", alt: "Paleta de sombras 1" },
+  { src: "/images/carousel/car2.jpg", alt: "Paleta de sombras 2" },
+  { src: "/images/carousel/car3.png", alt: "Paleta de sombras 3" },
 ];
 
 // Items de navegación con rutas reales
@@ -47,14 +51,14 @@ export const navigationItems: NavigationItem[] = [
   { name: "Labiales", href: "/labiales" },
 ];
 
-// Categorías con iconos - Colores pastel variados
+// Categorías con iconos
 export const categories: Category[] = [
-  { name: "MAQUILLAJE", icon: "/images/iconos/icono1.png", gradient: "from-rose-100 to-rose-200", href: "/maquillaje" },
-  { name: "CUIDADO FACIAL", icon: "/images/iconos/icono2.png", gradient: "from-teal-100 to-teal-200", href: "/cuidado-facial" },
-  { name: "CUIDADO CORPORAL", icon: "/images/iconos/icono3.png", gradient: "from-sky-100 to-sky-200", href: "/cuidado-corporal" },
-  { name: "FRAGANCIAS", icon: "/images/iconos/icono4.png", gradient: "from-violet-100 to-violet-200", href: "/fragancias" },
-  { name: "ACCESORIOS", icon: "/images/iconos/icono5.png", gradient: "from-amber-100 to-amber-200", href: "/accesorios" },
-  { name: "LABIALES", icon: "/images/iconos/icono6.png", gradient: "from-fuchsia-100 to-fuchsia-200", href: "/labiales" },
+  { name: "MAQUILLAJE", icon: "/images/iconos/icono1.png", href: "/maquillaje" },
+  { name: "CUIDADO FACIAL", icon: "/images/iconos/icono2.png", href: "/cuidado-facial" },
+  { name: "CUIDADO CORPORAL", icon: "/images/iconos/icono3.png", href: "/cuidado-corporal" },
+  { name: "FRAGANCIAS", icon: "/images/iconos/icono4.png", href: "/fragancias" },
+  { name: "ACCESORIOS", icon: "/images/iconos/icono5.png", href: "/accesorios" },
+  { name: "LABIALES", icon: "/images/iconos/icono6.png", href: "/labiales" },
 ];
 
 // Productos - Novedades
@@ -99,7 +103,7 @@ export const novedadesProducts: Product[] = [
     id: "nov-005",
     name: "Parches Anti Imperfecciones Acné", 
     price: "4,50", 
-    image: "/images/products/parches-acne.jpg",
+    image: "/images/products/novedades/prod5.jpeg",
     brand: "Clear Skin",
     description: "Parches hidrocoloides que ayudan a reducir las imperfecciones durante la noche. Invisibles y efectivos.",
     content: "36 parches"
@@ -139,7 +143,7 @@ export const maquillajeProducts: Product[] = [
     id: "maq-001",
     name: "Colorete Mágico PH", 
     price: "3,50", 
-    image: "/images/products/colorete-ph.jpg",
+    image: "/images/products/maquillaje/maq1.svg",
     brand: "Magic Beauty",
     description: "Colorete que reacciona al PH de tu piel, creando un rubor personalizado y natural.",
     content: "5g"
@@ -148,7 +152,7 @@ export const maquillajeProducts: Product[] = [
     id: "maq-002",
     name: "Esmalte de uñas Crema My Melody", 
     price: "2,99", 
-    image: "/images/products/esmalte-melody.jpg",
+    image: "/images/products/maquillaje/maq2.svg",
     brand: "Sanrio Beauty",
     description: "Esmalte cremoso con diseño kawaii de My Melody. Colores vibrantes y larga duración.",
     content: "10ml"
@@ -157,7 +161,7 @@ export const maquillajeProducts: Product[] = [
     id: "maq-003",
     name: "Iluminador Gelatina Rostro y Escote", 
     price: "3,50", 
-    image: "/images/products/iluminador-gelatina.jpg",
+    image: "/images/products/maquillaje/maq3.svg",
     brand: "Glow Lab",
     description: "Iluminador con textura de gelatina que se funde con la piel para un brillo natural y radiante.",
     content: "15g"
@@ -166,7 +170,43 @@ export const maquillajeProducts: Product[] = [
     id: "maq-004",
     name: "Paleta de Sombras Teléfono Barbie", 
     price: "8,95", 
-    image: "/images/products/paleta-barbie.jpg",
+    image: "/images/products/maquillaje/maq4.svg",
+    brand: "Barbie Beauty",
+    description: "Paleta de sombras con forma de teléfono retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
+    content: "12 colores"
+  },
+  { 
+    id: "maq-004",
+    name: "Paleta de Sombras Teléfono Barbie", 
+    price: "8,95", 
+    image: "/images/products/maquillaje/maq5.svg",
+    brand: "Barbie Beauty",
+    description: "Paleta de sombras con forma de teléfono retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
+    content: "12 colores"
+  },
+  { 
+    id: "maq-004",
+    name: "Paleta de Sombras Teléfono Barbie", 
+    price: "8,95", 
+    image: "/images/products/maquillaje/maq6.svg",
+    brand: "Barbie Beauty",
+    description: "Paleta de sombras con forma de teléfono retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
+    content: "12 colores"
+  },
+  { 
+    id: "maq-004",
+    name: "Paleta de Sombras Teléfono Barbie", 
+    price: "8,95", 
+    image: "/images/products/maquillaje/maq7.svg",
+    brand: "Barbie Beauty",
+    description: "Paleta de sombras con forma de teléfono retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
+    content: "12 colores"
+  },
+  { 
+    id: "maq-004",
+    name: "Paleta de Sombras Teléfono Barbie", 
+    price: "8,95", 
+    image: "/images/products/maquillaje/maq8.svg",
     brand: "Barbie Beauty",
     description: "Paleta de sombras con forma de teléfono retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
     content: "12 colores"
@@ -179,7 +219,7 @@ export const cuidadoFacialProducts: Product[] = [
     id: "fac-001",
     name: "Sérum Facial Naranja + Carbón", 
     price: "4,99", 
-    image: "/images/products/serum-naranja-carbon.jpg",
+    image: "/images/products/cuidado-facial/fac1.svg",
     brand: "Natural Glow",
     description: "Sérum con vitamina C y carbón activado para iluminar y purificar tu piel al mismo tiempo.",
     content: "30ml"
@@ -188,7 +228,7 @@ export const cuidadoFacialProducts: Product[] = [
     id: "fac-002",
     name: "Parches Anti Imperfecciones", 
     price: "4,50", 
-    image: "/images/products/parches-imperfecciones.jpg",
+    image: "/images/products/cuidado-facial/fac2.svg",
     brand: "Clear Skin",
     description: "Parches hidrocoloides que absorben impurezas y reducen la inflamación durante la noche.",
     content: "36 parches"
@@ -197,7 +237,7 @@ export const cuidadoFacialProducts: Product[] = [
     id: "fac-003",
     name: "Sérum Facial Kiwi + Carbón", 
     price: "4,99", 
-    image: "/images/products/serum-kiwi-carbon.jpg",
+    image: "/images/products/cuidado-facial/fac3.svg",
     brand: "Natural Glow",
     description: "Sérum revitalizante con extracto de kiwi y carbón activado para una piel fresca y limpia.",
     content: "30ml"
@@ -206,7 +246,7 @@ export const cuidadoFacialProducts: Product[] = [
     id: "fac-004",
     name: "Sérum Nutritivo Facial Hello Kitty", 
     price: "9,90", 
-    image: "/images/products/serum-hellokitty.jpg",
+    image: "/images/products/cuidado-facial/fac4.svg",
     brand: "Sanrio Beauty",
     description: "Sérum nutritivo con diseño adorable de Hello Kitty. Hidratación profunda y vitaminas esenciales.",
     content: "50ml"
@@ -217,18 +257,18 @@ export const cuidadoFacialProducts: Product[] = [
 export const cuidadoCorporalProducts: Product[] = [
   { 
     id: "cor-001",
-    name: "Spray Limpiador y Perfumante Hello Kitty", 
-    price: "4,99", 
-    image: "/images/products/spray-hellokitty.jpg",
+    name: "Latas de toallitas húmedas  desmaquillante", 
+    price: "1,50", 
+    image: "/images/products/cuidado-corporal/corp1.svg",
     brand: "Sanrio Beauty",
-    description: "Spray multiusos con fragancia delicada de Hello Kitty. Limpia y perfuma superficies.",
+    description: "Perfectas para limpiar y eliminar la suciedad de tus manos y cara, son perfectas para llevar en tu bolso.",
     content: "100ml"
   },
   { 
     id: "cor-002",
     name: "Spray Limpiador y Perfumante Kuromi", 
     price: "4,99", 
-    image: "/images/products/spray-kuromi.jpg",
+    image: "/images/products/cuidado-corporal/corp2.svg",
     brand: "Sanrio Beauty",
     description: "Spray con el estilo rebelde de Kuromi. Fragancia intensa y efectiva limpieza.",
     content: "100ml"
@@ -237,7 +277,7 @@ export const cuidadoCorporalProducts: Product[] = [
     id: "cor-003",
     name: "Spray Limpiador Cinnamoroll", 
     price: "4,99", 
-    image: "/images/products/spray-cinnamoroll.jpg",
+    image: "/images/products/cuidado-corporal/corp3.svg",
     brand: "Sanrio Beauty",
     description: "Spray suave con aroma dulce inspirado en Cinnamoroll. Perfecto para uso diario.",
     content: "100ml"
@@ -246,7 +286,34 @@ export const cuidadoCorporalProducts: Product[] = [
     id: "cor-004",
     name: "Bomba de Baño Efervescente Hello Kitty", 
     price: "3,75", 
-    image: "/images/products/bomba-bano-hellokitty.jpg",
+    image: "/images/products/cuidado-corporal/corp4.svg",
+    brand: "Sanrio Beauty",
+    description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
+    content: "150g"
+  },
+  { 
+    id: "cor-004",
+    name: "Bomba de Baño Efervescente Hello Kitty", 
+    price: "3,75", 
+    image: "/images/products/cuidado-corporal/corp5.svg",
+    brand: "Sanrio Beauty",
+    description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
+    content: "150g"
+  },
+  { 
+    id: "cor-004",
+    name: "Bomba de Baño Efervescente Hello Kitty", 
+    price: "3,75", 
+    image: "/images/products/cuidado-corporal/corp6.svg",
+    brand: "Sanrio Beauty",
+    description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
+    content: "150g"
+  },
+  { 
+    id: "cor-004",
+    name: "Bomba de Baño Efervescente Hello Kitty", 
+    price: "3,75", 
+    image: "/images/products/cuidado-corporal/corp7.svg",
     brand: "Sanrio Beauty",
     description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
     content: "150g"
@@ -411,7 +478,7 @@ export const labialesProducts: Product[] = [
     id: "lab-001",
     name: "Labial Mate Rosa Barbie", 
     price: "3,50", 
-    image: "/images/products/labial-rosa.jpg",
+    image: "/images/products/labiales/lab1.svg",
     brand: "Barbie Beauty",
     description: "Labial mate de alta pigmentación en tono rosa Barbie. Larga duración y acabado aterciopelado.",
     content: "4g"
@@ -420,7 +487,7 @@ export const labialesProducts: Product[] = [
     id: "lab-002",
     name: "Labial Brillo Fresa Kawaii", 
     price: "2,99", 
-    image: "/images/products/labial-fresa.jpg",
+    image: "/images/products/labiales/lab2.svg",
     brand: "Kawaii Lips",
     description: "Gloss labial con delicioso aroma a fresa y brillo cristalino. Hidratante y no pegajoso.",
     content: "5ml"
@@ -429,7 +496,7 @@ export const labialesProducts: Product[] = [
     id: "lab-003",
     name: "Set de Labiales Hello Kitty", 
     price: "8,50", 
-    image: "/images/products/set-labiales-hellokitty.jpg",
+    image: "/images/products/labiales/lab3.svg",
     brand: "Sanrio Beauty",
     description: "Set de 4 mini labiales con empaque de Hello Kitty. Tonos variados para cualquier ocasión.",
     content: "4 x 2g"
@@ -438,7 +505,7 @@ export const labialesProducts: Product[] = [
     id: "lab-004",
     name: "Labial Hidratante Cereza", 
     price: "4,25", 
-    image: "/images/products/labial-cereza.jpg",
+    image: "/images/products/labiales/lab4.svg",
     brand: "Fruity Lips",
     description: "Labial hidratante con extracto de cereza y vitamina E. Nutre mientras da color.",
     content: "4.5g"
@@ -447,7 +514,7 @@ export const labialesProducts: Product[] = [
     id: "lab-005",
     name: "Bálsamo Labial Vainilla", 
     price: "2,50", 
-    image: "/images/products/balsamo-vainilla.jpg",
+    image: "/images/products/labiales/lab5.svg",
     brand: "Sweet Lips",
     description: "Bálsamo labial ultra hidratante con aroma a vainilla. Protege y suaviza los labios.",
     content: "10g"
@@ -456,7 +523,7 @@ export const labialesProducts: Product[] = [
     id: "lab-006",
     name: "Labial Tinte Rojo Intenso", 
     price: "5,99", 
-    image: "/images/products/labial-rojo.jpg",
+    image: "/images/products/labiales/lab6.svg",
     brand: "Glam Lips",
     description: "Tinte labial de larga duración en rojo intenso. Efecto segunda piel que no transfiere.",
     content: "6ml"
@@ -465,7 +532,7 @@ export const labialesProducts: Product[] = [
     id: "lab-007",
     name: "Gloss Labial Melocotón", 
     price: "3,75", 
-    image: "/images/products/gloss-melocoton.jpg",
+    image: "/images/products/labiales/lab7.svg",
     brand: "Fruity Lips",
     description: "Gloss jugoso con aroma y sabor a melocotón. Da volumen y brillo espectacular.",
     content: "8ml"

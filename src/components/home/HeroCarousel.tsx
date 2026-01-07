@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { carouselImages } from "@/data/products";
 
 export function HeroCarousel() {
@@ -21,7 +22,15 @@ export function HeroCarousel() {
     setSelectedIndex(emblaApi.selectedScrollSnap());
   }, [emblaApi]);
 
-  // Autoplay
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
+
+  // Autoplay - 4 segundos
   useEffect(() => {
     if (!emblaApi) return;
 
@@ -29,7 +38,7 @@ export function HeroCarousel() {
       if (emblaApi) {
         emblaApi.scrollNext();
       }
-    }, 3000);
+    }, 4000);
 
     onSelect();
     emblaApi.on("select", onSelect);
@@ -42,7 +51,7 @@ export function HeroCarousel() {
 
   return (
     <section className="container mx-auto px-4 py-6 sm:py-8">
-      <div className="relative">
+      <div className="relative group">
         <div
           className="overflow-hidden rounded-2xl sm:rounded-3xl"
           ref={emblaRef}
@@ -64,6 +73,22 @@ export function HeroCarousel() {
             ))}
           </div>
         </div>
+
+        {/* Flechas de navegación */}
+        <button
+          onClick={scrollPrev}
+          className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 backdrop-blur-sm rounded-full p-2 sm:p-3 transition-all opacity-0 group-hover:opacity-100"
+          aria-label="Anterior"
+        >
+          <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+        </button>
+        <button
+          onClick={scrollNext}
+          className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 backdrop-blur-sm rounded-full p-2 sm:p-3 transition-all opacity-0 group-hover:opacity-100"
+          aria-label="Siguiente"
+        >
+          <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+        </button>
 
         {/* Indicadores */}
         <div className="flex justify-center gap-1.5 mt-4">

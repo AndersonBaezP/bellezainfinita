@@ -21,8 +21,8 @@ export function Header() {
       const allProducts = getAllProducts();
       const filtered = allProducts.filter(product => 
         product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        product.brand.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        product.description.toLowerCase().includes(searchQuery.toLowerCase())
+        (product.brand?.toLowerCase().includes(searchQuery.toLowerCase()) ?? false) ||
+        (product.description?.toLowerCase().includes(searchQuery.toLowerCase()) ?? false)
       );
       setSearchResults(filtered.slice(0, 10)); // Máximo 10 resultados
       setShowResults(true);
@@ -62,18 +62,20 @@ export function Header() {
               className="flex items-center gap-3 p-3 hover:bg-pink-50 transition-colors"
             >
               <div className="w-16 h-16 relative flex-shrink-0 bg-gray-100 rounded-lg overflow-hidden">
-                <Image
-                  src={product.image}
-                  alt={product.name}
-                  fill
-                  className="object-contain"
-                  sizes="64px"
-                />
+                {product.image && (
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    fill
+                    className="object-contain"
+                    sizes="64px"
+                  />
+                )}
               </div>
               <div className="flex-1 min-w-0">
                 <h4 className="font-semibold text-sm text-gray-900 truncate">{product.name}</h4>
-                <p className="text-xs text-gray-500 truncate">{product.brand}</p>
-                <p className="text-xs text-gray-400 line-clamp-1">{product.description}</p>
+                {product.brand && <p className="text-xs text-gray-500 truncate">{product.brand}</p>}
+                {product.description && <p className="text-xs text-gray-400 line-clamp-1">{product.description}</p>}
                 <p className="text-sm font-bold text-pink-500 mt-1">${product.price}</p>
               </div>
             </Link>

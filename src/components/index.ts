@@ -1,12 +1,18 @@
-// Layout components
+/**
+ * Exportaciones centralizadas de componentes
+ * Importar desde aquí para mayor comodidad:
+ * import { Header, Footer, ProductCard } from "@/components";
+ */
+
+// Layout
 export { Header } from "./layout/Header";
 export { Footer } from "./layout/Footer";
 
-// Home components
+// Home
 export { HeroCarousel } from "./home/HeroCarousel";
 export { CategoryCards } from "./home/CategoryCards";
 export { ShippingBanner } from "./home/ShippingBanner";
 
-// Product components
+// Products
 export { ProductCard } from "./products/ProductCard";
 export { ProductSection } from "./products/ProductSection";
