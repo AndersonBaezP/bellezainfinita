@@ -28,7 +28,7 @@ export default function CuidadoCorporalPage() {
         {/* Productos */}
         <ProductSection
           id="productos"
-          title="Todos los productos"
+          title="Cuidado Corporal"
           products={cuidadoCorporalProducts}
         />
       </main>

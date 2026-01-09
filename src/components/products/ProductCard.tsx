@@ -12,6 +12,12 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="group w-full max-w-[280px] mx-auto">
       <div className="relative">
+        {/* Etiqueta/Tag del producto */}
+        {product.tag && (
+          <span className="absolute top-2 left-2 z-10 bg-pink-500 text-white text-[10px] font-semibold px-2 py-1 rounded-full shadow-sm">
+            {product.tag}
+          </span>
+        )}
         {/* Imagen clickeable para ir al detalle */}
         <Link href={`/producto/${product.id}`} className="block">
           {product.image ? (

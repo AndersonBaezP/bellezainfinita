@@ -86,10 +86,19 @@ export default async function ProductPage({ params }: ProductPageProps) {
               <div className="p-5 md:p-8 flex flex-col justify-center">
                 {/* Marca */}
                 {product.brand && (
-                  <div className="flex items-center gap-2 mb-3">
+                  <div className="flex items-center gap-2 mb-2">
                     <Tag className="w-3 h-3 text-pink-500" />
                     <span className="inline-block bg-pink-100 text-pink-600 text-xs font-semibold px-3 py-1 rounded-full">
                       {product.brand}
+                    </span>
+                  </div>
+                )}
+
+                {/* Etiqueta/Subcategoría */}
+                {product.tag && (
+                  <div className="mb-3">
+                    <span className="inline-block bg-pink-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                      {product.tag}
                     </span>
                   </div>
                 )}

@@ -13,7 +13,6 @@ import {
   cuidadoCorporalProducts,
   fraganciasProducts,
   accesoriosProducts,
-  labialesProducts,
 } from "@/data/products";
 
 export default function Home() {
@@ -60,12 +59,6 @@ export default function Home() {
         title="ACCESORIOS"
         products={accesoriosProducts}
         variant="gray"
-      />
-
-      <ProductSection
-        id="labiales"
-        title="LABIALES"
-        products={labialesProducts}
       />
 
       <ShippingBanner />
