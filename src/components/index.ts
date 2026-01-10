@@ -16,3 +16,4 @@ export { ShippingBanner } from "./home/ShippingBanner";
 // Products
 export { ProductCard } from "./products/ProductCard";
 export { ProductSection } from "./products/ProductSection";
+export { ImageZoom } from "./products/ImageZoom";

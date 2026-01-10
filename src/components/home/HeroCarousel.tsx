@@ -30,7 +30,7 @@ export function HeroCarousel() {
     if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
 
-  // Autoplay - 4 segundos
+  // Autoplay - 6 segundos
   useEffect(() => {
     if (!emblaApi) return;
 
@@ -38,7 +38,7 @@ export function HeroCarousel() {
       if (emblaApi) {
         emblaApi.scrollNext();
       }
-    }, 4000);
+    }, 6000);
 
     onSelect();
     emblaApi.on("select", onSelect);

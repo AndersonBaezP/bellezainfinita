@@ -69,7 +69,8 @@ export const novedadesProducts: Product[] = [
     image: "/images/products/novedades/Glossy Candy1.svg",
     brand: "Pusheen",
     description: "Pinzas de depilar con diseño adorable de Pusheen. Perfectas para darle un toque kawaii a tu rutina de belleza.",
-    content: "1 unidad"
+    content: "1 unidad",
+    tag: "Oferta"
   },
   { 
     id: "nov-002",
@@ -78,7 +79,8 @@ export const novedadesProducts: Product[] = [
     image: "/images/products/novedades/colores.svg",
     brand: "Magic Beauty",
     description: "Colorete que cambia de color según el PH de tu piel, adaptándose a tu tono natural para un rubor perfecto.",
-    content: "5g"
+    content: "5g",
+    tag: "Nuevo Producto"
   },
   { 
     id: "nov-003",
@@ -87,7 +89,8 @@ export const novedadesProducts: Product[] = [
     image: "/images/products/novedades/prod3.svg",
     brand: "Kawaii Fresh",
     description: "Delicioso ambientador con aroma a batido de fresa que mantendrá tu coche con un olor dulce y agradable.",
-    content: "8ml"
+    content: "8ml",
+    tag: "Edición Limitada"
   },
   { 
     id: "nov-004",
@@ -96,7 +99,8 @@ export const novedadesProducts: Product[] = [
     image: "/images/products/novedades/prod4.svg",
     brand: "Natural Glow",
     description: "Sérum facial con vitamina C de naranja y carbón activado para una piel radiante y libre de impurezas.",
-    content: "30ml"
+    content: "30ml",
+    tag: "2x1"
   },
 ];
 
@@ -869,61 +873,31 @@ const fragancias_Perfumes: Product[] = [
 // ─────────────────────────────────────────────────────────────────────────────
 const fragancias_Velas: Product[] = [
   { 
-    id: "fra-007",
-    name: "Aceite Esencial Lavanda", 
-    price: "6,99", 
-    image: "/images/products/fragancias/fra20.svg",
-    brand: "Aromatherapy Plus",
-    description: "Aceite esencial puro de lavanda para aromaterapia. Ideal para relajación y mejor sueño.",
-    content: "15ml",
-    tag: "Velas"
-  },
-  { 
-    id: "fra-008",
+    id: "fra-026",
     name: "Velas Aromáticas Pack 3", 
     price: "9,99", 
-    image: "/images/products/fragancias/fra21.svg",
+    image: "/images/products/fragancias/fra26.svg", 
     brand: "Cozy Home",
     description: "Set de 3 velas aromáticas con fragancias variadas: lavanda, vainilla y rosa. Perfectas para crear ambiente.",
     content: "3 x 80g",
     tag: "Velas"
-  },
+  },  
   { 
-    id: "fra-022",
-    name: "Aceite Esencial Lavanda", 
-    price: "6,99", 
-    image: "/images/products/fragancias/fra22.svg",
-    brand: "Aromatherapy Plus",
-    description: "Aceite esencial puro de lavanda para aromaterapia. Ideal para relajación y mejor sueño.",
-    content: "15ml",
-    tag: "Velas"
-  }, 
-  { 
-    id: "fra-023",
+    id: "fra-027",
     name: "Velas Aromáticas Pack 3", 
     price: "9,99", 
-    image: "/images/products/fragancias/fra23.svg",
+    image: "/images/products/fragancias/fra27.svg",
     brand: "Cozy Home",
-    description: "Set de 3 velas aromáticas con fragancias variadas: lavanda, vainilla y rosa. Perfectas para crear ambiente.",
+    description: "Set de 3 velas aromáticas con fragancias variadas: lavanda, vainilla y rosa. Perfectas para crear ambiente.", 
     content: "3 x 80g",
     tag: "Velas"
   },
   { 
-    id: "fra-024",
+    id: "fra-028",
     name: "Velas Aromáticas Pack 3", 
-    price: "9,99", 
-    image: "/images/products/fragancias/fra24.svg",
-    brand: "Cozy Home",
-    description: "Set de 3 velas aromáticas con fragancias variadas: lavanda, vainilla y rosa. Perfectas para crear ambiente.",
-    content: "3 x 80g",
-    tag: "Velas"
-  },
-  { 
-    id: "fra-025",
-    name: "Velas Aromáticas Pack 3", 
-    price: "9,99", 
-    image: "/images/products/fragancias/fra25.svg",
-    brand: "Cozy Home",
+    price: "9,99",  
+    image: "/images/products/fragancias/fra28.svg",
+    brand: "Cozy Home", 
     description: "Set de 3 velas aromáticas con fragancias variadas: lavanda, vainilla y rosa. Perfectas para crear ambiente.",
     content: "3 x 80g",
     tag: "Velas"
@@ -975,6 +949,66 @@ const fragancias_Ambientadores: Product[] = [
     content: "8ml",
     tag: "Ambientadores"
   },
+  { 
+    id: "fra-007",
+    name: "Aceite Esencial Lavanda", 
+    price: "6,99", 
+    image: "/images/products/fragancias/fra20.svg",
+    brand: "Aromatherapy Plus",
+    description: "Aceite esencial puro de lavanda para aromaterapia. Ideal para relajación y mejor sueño.",
+    content: "15ml",
+    tag: "Ambientadores"
+  },
+  { 
+    id: "fra-008",
+    name: "Velas Aromáticas Pack 3", 
+    price: "9,99", 
+    image: "/images/products/fragancias/fra21.svg",
+    brand: "Cozy Home",
+    description: "Set de 3 velas aromáticas con fragancias variadas: lavanda, vainilla y rosa. Perfectas para crear ambiente.",
+    content: "3 x 80g",
+    tag: "Ambientadores"
+  },
+  { 
+    id: "fra-022",
+    name: "Aceite Esencial Lavanda", 
+    price: "6,99", 
+    image: "/images/products/fragancias/fra22.svg",
+    brand: "Aromatherapy Plus",
+    description: "Aceite esencial puro de lavanda para aromaterapia. Ideal para relajación y mejor sueño.",
+    content: "15ml",
+    tag: "Ambientadores"
+  }, 
+  { 
+    id: "fra-023",
+    name: "Velas Aromáticas Pack 3", 
+    price: "9,99", 
+    image: "/images/products/fragancias/fra23.svg",
+    brand: "Cozy Home",
+    description: "Set de 3 velas aromáticas con fragancias variadas: lavanda, vainilla y rosa. Perfectas para crear ambiente.",
+    content: "3 x 80g",
+    tag: "Ambientadores"
+  },
+  { 
+    id: "fra-024",
+    name: "Velas Aromáticas Pack 3", 
+    price: "9,99", 
+    image: "/images/products/fragancias/fra24.svg",
+    brand: "Cozy Home",
+    description: "Set de 3 velas aromáticas con fragancias variadas: lavanda, vainilla y rosa. Perfectas para crear ambiente.",
+    content: "3 x 80g",
+    tag: "Ambientadores"
+  },
+  { 
+    id: "fra-025",
+    name: "Velas Aromáticas Pack 3", 
+    price: "9,99", 
+    image: "/images/products/fragancias/fra25.svg",
+    brand: "Cozy Home",
+    description: "Set de 3 velas aromáticas con fragancias variadas: lavanda, vainilla y rosa. Perfectas para crear ambiente.",
+    content: "3 x 80g",
+    tag: "Ambientadores"
+  },
   // ↓ Agregar más AMBIENTADORES aquí ↓
 ];
 
@@ -983,8 +1017,9 @@ const fragancias_Ambientadores: Product[] = [
 // ═══════════════════════════════════════════════════════════════════════════
 export const fraganciasProducts: Product[] = [
   ...fragancias_Perfumes,
-  ...fragancias_Velas,
   ...fragancias_Ambientadores,
+  ...fragancias_Velas,
+  
 ];
 
 // Productos - Accesorios
