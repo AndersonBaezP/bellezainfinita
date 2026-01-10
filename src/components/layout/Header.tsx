@@ -174,23 +174,25 @@ export function Header() {
             </div>
           </div>
 
-          {/* Mobile Search */}
-          <div className="md:hidden mt-4">
-            <div ref={mobileSearchRef} className="flex max-w-sm relative mx-auto">
-              <Input
-                type="search"
-                placeholder="Buscar..."
-                className="pr-10 rounded-full w-full"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                onFocus={() => searchQuery.length >= 2 && setShowResults(true)}
-              />
-              <Search className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
-              <SearchResultsDropdown />
+          {/* Mobile Search - se oculta cuando el menú está abierto */}
+          {!menuOpen && (
+            <div className="md:hidden mt-4">
+              <div ref={mobileSearchRef} className="flex max-w-sm relative mx-auto">
+                <Input
+                  type="search"
+                  placeholder="Buscar..."
+                  className="pr-10 rounded-full w-full"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onFocus={() => searchQuery.length >= 2 && setShowResults(true)}
+                />
+                <Search className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
+                <SearchResultsDropdown />
+              </div>
             </div>
-          </div>
+          )}
 
-          {/* Mobile Menu */}
+          {/* Mobile Menu - solo enlaces */}
           {menuOpen && (
             <div className="lg:hidden bg-white border-t">
               <div className="px-4 py-4">
