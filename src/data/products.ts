@@ -115,11 +115,11 @@ export const novedadesProducts: Product[] = [
 const maquillaje_Rostro: Product[] = [
   { 
     id: "maq-001",
-    name: "Colorete Mágico PH", 
-    price: "3,50", 
+    name: "BRONCEADOR BRONZER PODWER ", 
+    price: "2,50", 
     image: "/images/products/maquillaje/maq1.svg",
-    brand: "Magic Beauty",
-    description: "Colorete que reacciona al PH de tu piel, creando un rubor personalizado y natural.",
+    brand: "KARITE",
+    description: "Disponible en 3 tonos marrón  ; Polvo bronceador con formula suave y sedosa aporta calidez y un aspecto saludable a tu piel contiene minerales naturales. ",
     content: "5g",
     tag: "Rostro"
   },
@@ -135,12 +135,12 @@ const maquillaje_Rostro: Product[] = [
   },
   { 
     id: "maq-003",
-    name: "Iluminador Gelatina Rostro y Escote", 
-    price: "3,50", 
+    name: "HIGHLIGHT ILUMINADOR DE ROSTRO", 
+    price: "2,50", 
     image: "/images/products/maquillaje/maq3.svg",
-    brand: "Glow Lab",
-    description: "Iluminador con textura de gelatina que se funde con la piel para un brillo natural y radiante.",
-    content: "15g",
+    brand: "USHA",
+    description: "Disponible en 3 tonos marrón Iluminador en polvo ayuda a dar brillo a las mejillas y realzar los puntos altos del rostro su fórmula sedosa y suave",
+    content: "8g",
     tag: "Rostro"
   },
   // ↓ Agregar más productos de ROSTRO aquí ↓
@@ -162,42 +162,42 @@ const maquillaje_Labiales: Product[] = [
   },
   { 
     id: "maq-005",
-    name: "Paleta de Sombras Teléfono Barbie", 
-    price: "8,95", 
+    name: "ACEITE LABIAL SANDIA", 
+    price: "4,50", 
     image: "/images/products/maquillaje/maq5.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de teléfono retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
+    brand: "THE FRUIT COMPANY",
+    description: "Aceite labial con aroma a sandia contiene vitamina E y aceite de jojoba que proporciona hidratación y nutrientes a tus labios producto vegano libre de crueldad animal . .",
+    content: "1 Unidad",
     tag: "Labiales"
   },
   { 
     id: "maq-006",
-    name: "Paleta de Sombras Teléfono Barbie", 
-    price: "8,95", 
+    name: "ACEITE LABIAL MELOCOTON", 
+    price: "4,50", 
     image: "/images/products/maquillaje/maq6.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de teléfono retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
+    brand: "THE FRUIT COMPANY",
+    description: "Aceite labial con aroma a melocotón contiene vitamina E y aceite de jojoba que proporciona hidratación y nutrientes a tus labios producto vegano libre de crueldad animal . .",
+    content: "1 Unidad",
     tag: "Labiales"
   },
   { 
     id: "maq-007",
-    name: "Paleta de Sombras Teléfono Barbie", 
-    price: "8,95", 
+    name: "ACEITE LABIAL MORA", 
+    price: "4,50", 
     image: "/images/products/maquillaje/maq7.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de teléfono retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
+    brand: "THE FRUIT COMPANY",
+    description: "Aceite labial con aroma a mora contiene vitamina E y aceite de jojoba que proporciona hidratación y nutrientes a tus labios producto vegano libre de crueldad animal . .",
+    content: "1 Unidad",
     tag: "Labiales"
   },
   { 
     id: "maq-008",
-    name: "Paleta de Sombras Teléfono Barbie", 
-    price: "8,95", 
+    name: "ACEITE LABIAL FRESA NATA", 
+    price: "4,50", 
     image: "/images/products/maquillaje/maq8.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de teléfono retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
+    brand: "THE FRUIT COMPANY",
+    description: "Aceite labial con aroma a fresa nata contiene vitamina E y aceite de jojoba que proporciona hidratación y nutrientes a tus labios producto vegano libre de crueldad animal . .",
+    content: "1 Unidad",
     tag: "Labiales"
   },
   { 
@@ -242,32 +242,192 @@ const maquillaje_Labiales: Product[] = [
   },
   { 
     id: "maq-013",
-    name: "Paleta de Sombras Telafone Barbie", 
-    price: "8,95", 
+    name: "TINTA DE LABIOS", 
+    price: "2,50", 
     image: "/images/products/maquillaje/maq13.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de telafone retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
+    brand: "USHA",
+    description: "Labios de impacto y empaque en forma de botella de vino tinta labial con alta pigmentación acabado natural y duradero. ",
+    content: "3 tonos",
     tag: "Labiales"
   },
   { 
     id: "maq-014",
-    name: "Paleta de Sombras Telafone Barbie", 
-    price: "8,95", 
+    name: "P.H.A.T SÉRUM ", 
+    price: "5,00", 
     image: "/images/products/maquillaje/maq14.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de telafone retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
+    brand: "ITALIA DELUXE",
+    description: "Hidrata y nutre los labios dejandolos con un acabado ultra glossy sin ser pegajoso tiene ingredientes reparadores como el ácido hialurónico,aceite de girasol, aceite de jojoba y vitamina E.",
+    content: "1 Unidad",
     tag: "Labiales"
   },
   { 
     id: "maq-015",
-    name: "Paleta de Sombras Telafone Barbie", 
-    price: "8,95", 
+    name: "LIPGLOSS ", 
+    price: "3,00", 
     image: "/images/products/maquillaje/maq15.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de telafone retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
+    brand: "USHA",
+    description: "Brillo labial hidratante formula ligera no pegajosa ideal para cualquiera momento del día su diseño adorable sus envases con carita de gatito perfecto para llevarlos en tu bolso . ",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-020",
+    name: " ACEITE LABIAL JUICY BOMB", 
+    price: "2,25", 
+    image: "/images/products/maquillaje/maq20.svg",
+    brand: "ESSENCE",
+    description: "Aceite labial con aroma a vainilla proporciona hidratación y nutrientes a tus labios dejándolos brillantes sin sensación pegajosa",
+    content: "10 ml",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-021",
+    name: "ACEITE LABIAL JUICY BOMB", 
+    price: "2,25", 
+    image: "/images/products/maquillaje/maq21.svg",
+    brand: "ESSENCE",
+    description: "Aceite labial con aroma a vainilla proporciona hidratación y nutrientes a tus labios dejándolos brillantes sin sensación pegajosa",
+    content: "10 ml",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-022",
+    name: "ACEITE LABIAL JUICY BOMB", 
+    price: "2,25", 
+    image: "/images/products/maquillaje/maq22.svg",
+    brand: "ESSENCE", 
+    description: "Aceite labial con aroma a vainilla proporciona hidratación y nutrientes a tus labios dejándolos brillantes sin sensación pegajosa",
+    content: "10 ml",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-023",
+    name: "P.H.A.T  JUICY LIP GLOW OIL ",
+    price: "5,00",
+    image: "/images/products/maquillaje/maq23.svg",
+    brand: "ITALIA DELUXE",
+    description: "Hidratante labial o aplícalo después de la aplicación del lápiz labial para un efecto brillante.",
+    content: "10 ml",
+    tag: "Labiales"
+  },
+  { 
+    id: "maq-024",
+    name: "P.H.A.T  JUICY LIP GLOW OIL ",
+    price: "5,00", 
+    image: "/images/products/maquillaje/maq24.svg",
+    brand: "ITALIA DELUXE",
+    description: "Hidratante labial o aplícalo luego de la aplicación del lápiz labial para un efecto brillante.",
+    content: "10 ml",
+    tag: "Labiales"
+  },
+  { 
+    id: "maq-025",
+    name: "P.H.A.T  JUICY LIP GLOW OIL ",
+    price: "5,00", 
+    image: "/images/products/maquillaje/maq25.svg",
+    brand: "ITALIA DELUXE",
+    description: "Hidratante labial o aplícalo luego de la aplicación del lápiz labial para un efecto brillante.",
+    content: "10 ml",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-026",
+    name: "LABIAL LIQUIDO SUPER BEST MATTE",
+    price: "3,00", 
+    image: "/images/products/maquillaje/maq26.svg",
+    brand: "USHA",
+    description: "Labial liquido super Best acabado matte con una gran pigmentación y duración a prueba de agua.",
+    content: "6 Tonos",
+    tag: "Labiales" 
+  },
+  {
+    id: "maq-027",
+    name: "LIP OIL MÁGICO FRESH JUICY",
+    price: "3,50", 
+    image: "/images/products/maquillaje/maq27.svg",
+    brand: "USHA",
+    description: "Brillo labial hidratantes frutales magico combina los beneficios de un aceite labial nutritivo con la capacidad de dar un toque de color según el ph.",
+    content: "3 Aromas",
+    tag: "Labiales" 
+  },
+  {
+    id: "maq-028",
+    name: "P.H.A.T  JUICY LIP GLOW OIL ",
+    price: "7,00", 
+    image: "/images/products/maquillaje/maq28.svg",
+    brand: "USHA",
+    description: "Hidratante labial o aplícalo después de la aplicación del lápiz labial para un efecto brillante. ",
+    content: "Tonos 10 - 11",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-029",
+    name: "LIPGLOSS",
+    price: "7,00",  
+    image: "/images/products/maquillaje/maq29.svg",
+    brand: "FEBBLE",  
+    description: "Proporciona un acabado brillante e hidratante dejando los labios con un aspecto jugoso reacciona dependiendo al pH de los labios creando un tono rosa .",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-030",
+    name: "MASCARILLA LABIAL LIP MASK FRUTA SANDÍA  ",
+    price: "2,50", 
+    image: "/images/products/maquillaje/maq30.svg",
+    brand: "USHA", 
+    description: "Tratamiento hidratante y nutritivo para los labios con extractos naturales de frutas diseñado para suavizar los labios secos o agrietados con un agradable aroma a sandía, ideal para el cuidado diario por el cambio del clima. ",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-031",
+    name: "MASCARILLA LABIAL LIP MASK FRUTA UVA  ",
+    price: "2,50", 
+    image: "/images/products/maquillaje/maq31.svg",
+    brand: "USHA",
+    description: "Tratamiento hidratante y nutritivo para los labios con extractos naturales de frutas diseñado para suavizar los labios secos o agrietados con un agradable aroma a sandía, ideal para el cuidado diario por el cambio del clima. ",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-032",
+    name: "MASCARILLA LABIAL LIP MASK FRUTA ARÁNDANOS",
+    price: "2,50", 
+    image: "/images/products/maquillaje/maq32.svg",
+    brand: "USHA",
+    description: "Tratamiento hidratante y nutritivo para los labios con extractos naturales de frutas diseñado para suavizar los labios secos o agrietados con un agradable aroma a sandía, ideal para el cuidado diario por el cambio del clima. ",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  { 
+    id: "maq-033",
+    name: "MASCARILLA DE LABIOS", 
+    price: "0,75", 
+    image: "/images/products/cuidado-facial/fac7.svg",
+    brand: "DEAR SHE STRAWBERRY",
+    description: "Mascarilla de colágeno para labios proporciona hidratación profunda para combatir la resequedad dejando tus labios suaves y sedosos ",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-034",
+    name: "MASCARILLA DE LABIOS", 
+    price: "0,75", 
+    image: "/images/products/maquillaje/maq33.svg",
+    brand: "DEAR SHE STRAWBERRY",
+    description: "Mascarilla de colágeno para labios proporciona hidratación profunda para combatir la resequedad dejando tus labios suaves y sedosos.",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-035",
+    name: "MASCARILLA DE LABIOS", 
+    price: "0,75", 
+    image: "/images/products/maquillaje/maq34.svg",
+    brand: "DEAR SHE STRAWBERRY",
+    description: "Mascarilla de colágeno para labios proporciona hidratación profunda para combatir la resequedad dejando tus labios suaves y sedosos.",
+    content: "1 Unidad",
     tag: "Labiales"
   },
   // ↓ Agregar más productos de LABIALES aquí ↓
@@ -279,24 +439,44 @@ const maquillaje_Labiales: Product[] = [
 const maquillaje_Ojos: Product[] = [
   { 
     id: "maq-016",
-    name: "Paleta de Sombras Telafone Barbie", 
-    price: "8,95", 
+    name: "GEL DE CEJAS", 
+    price: "3,00", 
     image: "/images/products/maquillaje/maq16.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de telafone retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
+    brand: "MELU BY RUBY ROSE",
+    description: "Gel incoloro para fijar y moldear las cejas logrando un aspecto natural y definido sus ingredientes extracto de almendra y avena. ",
+    content: "1 Unidad",
     tag: "Ojos"
   },
   { 
     id: "maq-017",
-    name: "Paleta de Sombras Telafone Barbie", 
-    price: "8,95", 
+    name: "SÉRUM DE PESTAÑAS", 
+    price: "3,00", 
     image: "/images/products/maquillaje/maq17.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de telafone retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
+    brand: "BIOAQUA",
+    description: "Tratamiento nutritivo para fortalecer alargar y dar volumen a las pestañas y cejas con ingredientes naturales como vitamina E y proteínas de avena hidrolizada. ",
+    content: "1 Unidad",
     tag: "Ojos"
   },
+  {
+    id: "maq-018",
+    name: "RIZADOR DE PESTAÑAS", 
+    price: "1,75", 
+    image: "/images/products/maquillaje/maq18.svg",
+    brand: "PESTAÑAS Y CEJAS",
+    description: " Rizadores de pestañas cola de piña. ",
+    content: "1 Unidad",
+    tag: "Ojos"
+  },
+  {
+    id: "maq-019",
+    name: "MASCARA DE PESTAÑAS", 
+    price: "3,50", 
+    image: "/images/products/maquillaje/maq19.svg",
+    brand: "FEBBLE",
+    description: " Mascara de pestañas diseñadas para realzar y definir las pestañas proporcionando volumen y longitud.  ",
+    content: "1 Unidad",
+    tag: "Ojos"
+  }
   // ↓ Agregar más productos de OJOS aquí ↓
 ];
 
@@ -309,79 +489,152 @@ export const maquillajeProducts: Product[] = [
   ...maquillaje_Ojos,
 ];
 
-// Productos - Cuidado Facial
-export const cuidadoFacialProducts: Product[] = [
+// ═══════════════════════════════════════════════════════════════════════════
+// CUIDADO FACIAL - Organizado por Tags
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ─────────────────────────────────────────────────────────────────────────────
+// ROSTRO
+// ─────────────────────────────────────────────────────────────────────────────
+const cuidadoFacial_Rostro: Product[] = [
   { 
     id: "fac-001",
-    name: "Sérum Facial Naranja + Carbón", 
-    price: "4,99", 
+    name: "SÉRUM FACIAL ALOE VERA", 
+    price: "6,00", 
     image: "/images/products/cuidado-facial/fac1.svg",
-    brand: "Natural Glow",
-    description: "Sérum con vitamina C y carbón activado para iluminar y purificar tu piel al mismo tiempo.",
-    content: "30ml",
+    brand: "USHA",
+    description: "Sérum facial con áloe vera hidratante y calmante,ideal para pieles sensibles con propiedades antiinflamatorias. ",
+    content: "30 ml",
     tag: "Rostro"
   },
   { 
     id: "fac-002",
-    name: "Parches Anti Imperfecciones", 
-    price: "4,50", 
+    name: "SÉRUM FACIAL  ÁCIDO HIALURÓNICO ", 
+    price: "6,00", 
     image: "/images/products/cuidado-facial/fac2.svg",
-    brand: "Clear Skin",
-    description: "Parches hidrocoloides que absorben impurezas y reducen la inflamación durante la noche.",
-    content: "36 parches",
+    brand: "USHA",
+    description: "Sérum facial con ácido hialurónico hidrata profundamente y revitaliza la piel rellenando las líneas de expresión con rápida absorción y sensación fresca ",
+    content: "30 ml",
     tag: "Rostro"
   },
   { 
     id: "fac-003",
-    name: "Sérum Facial Kiwi + Carbón", 
-    price: "4,99", 
+    name: "SÉRUM FACIAL COLÁGENO", 
+    price: "6,00", 
     image: "/images/products/cuidado-facial/fac3.svg",
-    brand: "Natural Glow",
-    description: "Sérum revitalizante con extracto de kiwi y carbón activado para una piel fresca y limpia.",
-    content: "30ml",
+    brand: "USHA",
+    description: "Sérum facial con colágeno ayuda a mantener la piel más firme y elástica previniendo arrugas. ",
+    content: "30 ml",
     tag: "Rostro"
   },
   { 
     id: "fac-004",
-    name: "Sérum Nutritivo Facial Hello Kitty", 
-    price: "9,90", 
+    name: "SÉRUM FACIAL VITAMINA C ", 
+    price: "6,00", 
     image: "/images/products/cuidado-facial/fac4.svg",
-    brand: "Sanrio Beauty",
-    description: "Sérum nutritivo con diseño adorable de Hello Kitty. Hidratación profunda y vitaminas esenciales.",
-    content: "50ml",
+    brand: "USHA",
+    description: "Sérum facial vitamina C nutritivo que ayuda a devolver el brillo y la protección antioxidantes de la piel.",
+    content: "50 ml",
     tag: "Rostro"
+  },
+  { 
+    id: "cor-014",
+    name: "TOALLITAS BIODEGRADABLES", 
+    price: "3,50", 
+    image: "/images/products/cuidado-corporal/corp14.svg",
+    brand: "THE FRUIT COMPANY",
+    description: "Son ideales para usar en manos,cara y WC con su irresistible aroma a  moras contiene aloe vera, vitamina E y camomila para limpiar y cuidar tu piel 100% biodegradables y desechables por el WC.",
+    content: "1 Paquete",
+    tag: "Rostro"
+  },
+  { 
+    id: "cor-015",
+    name: "TOALLITAS BIODEGRADABLES", 
+    price: "3,50", 
+    image: "/images/products/cuidado-corporal/corp15.svg",
+    brand: "THE FRUIT COMPANY",
+    description: "Son ideales para usar en manos,cara y WC con su irresistible aroma a  moras contiene aloe vera, vitamina E y camomila para limpiar y cuidar tu piel 100% biodegradables y desechables por el WC.",
+    content: "1 Paquete",
+    tag: "Rostro"
+  },
+  { 
+    id: "cor-016",
+    name: "TOALLITAS HÚMEDAS ", 
+    price: "3,50", 
+    image: "/images/products/cuidado-corporal/corp16.svg",
+    brand: "THE FRUIT COMPANY",
+    description: "Son ideales para usar en manos,cara y WC con su irresistible aroma a  moras contiene aloe vera, vitamina E y camomila para limpiar y cuidar tu piel 100% biodegradables y desechables por el WC.",
+    content: "1 Paquete",
+    tag: "Rostro"
+  },
+  { 
+    id: "cor-001",
+    name: "TOALLITAS HÚMEDAS LATAS", 
+    price: "1,25", 
+    image: "/images/products/cuidado-corporal/corp1.svg",
+    brand: "LITTLE",
+    description: "Mini toallitas húmedas portátiles en latas con diseño de astronauta ideales para limpieza rápida de manos y caras las encuentras en 4 diferentes colores .",
+    content: "1 Lata",
+    tag: "Rostro"
+  },
+  // ↓ Agregar más productos de ROSTRO aquí ↓
+];
+
+// ─────────────────────────────────────────────────────────────────────────────
+// MASCARILLAS
+// ─────────────────────────────────────────────────────────────────────────────
+const cuidadoFacial_Mascarillas: Product[] = [
+  { 
+    id: "fac-008",
+    name: "MASCARILLA FACIAL RICE  ", 
+    price: "0,75", 
+    image: "/images/products/cuidado-facial/fac8.svg",
+    brand: "KARITE",
+    description: "Mascarilla en velo facial aporta vitamina E,B1 y B3  ayudan a revitalizar e hidratación de la piel contiene ingredientes naturales que dejarán tu piel con suavidad y delicadeza. ",
+    content: "50ml",
+    tag: "Mascarillas"
+  },
+  { 
+    id: "fac-009",
+    name: "MASCARILLA FACIAL RICE  ", 
+    price: "0,75", 
+    image: "/images/products/cuidado-facial/fac9.svg",
+    brand: "KARITE",
+    description: "Mascarilla en velo facial aporta vitamina E,B1 y B3  ayudan a revitalizar e hidratación de la piel contiene ingredientes naturales que dejarán tu piel con suavidad y delicadeza. ",
+    content: "50ml",
+    tag: "Mascarillas"
   },
   { 
     id: "fac-005",
-    name: "Sérum Facial Kiwi + Carbón", 
-    price: "4,99", 
+    name: "MASCARILLA FACIAL RICE  ", 
+    price: "0,75", 
     image: "/images/products/cuidado-facial/fac5.svg",
-    brand: "Natural Glow",
-    description: "Sérum revitalizante con extracto de kiwi y carbón activado para una piel fresca y limpia.",
+    brand: "KARITE",
+    description: "Mascarilla en velo facial aporta vitamina E,B1 y B3  ayudan a revitalizar e hidratación de la piel contiene ingredientes naturales que dejarán tu piel con suavidad y delicadeza. ",
     content: "30ml",
-    tag: "Rostro"
+    tag: "Mascarillas"
   },
   { 
     id: "fac-006",
-    name: "Sérum Facial Kiwi + Carbón", 
-    price: "4,99", 
+    name: "MASCARILLA FACIAL RICE  ", 
+    price: "0,75", 
     image: "/images/products/cuidado-facial/fac6.svg",
-    brand: "Natural Glow",
-    description: "Sérum revitalizante con extracto de kiwi y carbón activado para una piel fresca y limpia.",
+    brand: "KARITE",
+    description: "Mascarilla en velo facial aporta vitamina E,B1 y B3  ayudan a revitalizar e hidratación de la piel contiene ingredientes naturales que dejarán tu piel con suavidad y delicadeza. ",
     content: "30ml",
-    tag: "Rostro"
+    tag: "Mascarillas"
   },
-  { 
-    id: "fac-007",
-    name: "Sérum Facial Kiwi + Carbón", 
-    price: "4,99", 
-    image: "/images/products/cuidado-facial/fac7.svg",
-    brand: "Natural Glow",
-    description: "Sérum revitalizante con extracto de kiwi y carbón activado para una piel fresca y limpia.",
-    content: "30ml",
-    tag: "Rostro"
-  },
+  // ↓ Agregar más productos de MASCARILLAS aquí ↓
 ];
+
+// ═══════════════════════════════════════════════════════════════════════════
+// COMBINAR TODOS - El orden aquí define cómo se ven en la web
+// ═══════════════════════════════════════════════════════════════════════════
+export const cuidadoFacialProducts: Product[] = [
+  ...cuidadoFacial_Rostro,
+  ...cuidadoFacial_Mascarillas,
+];
+
 
 // ═══════════════════════════════════════════════════════════════════════════
 // CUIDADO CORPORAL - Organizado por Tags
@@ -449,46 +702,6 @@ const corporal_Manos: Product[] = [
     brand: "Sanrio Beauty",
     description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
     content: "150g",
-    tag: "Manos"
-  },
-  { 
-    id: "cor-014",
-    name: "Bomba de Baño Efervescente Hello Kitty", 
-    price: "3,75", 
-    image: "/images/products/cuidado-corporal/corp14.svg",
-    brand: "Sanrio Beauty",
-    description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
-    content: "150g",
-    tag: "Manos"
-  },
-  { 
-    id: "cor-015",
-    name: "Bomba de Baño Efervescente Hello Kitty", 
-    price: "3,75", 
-    image: "/images/products/cuidado-corporal/corp15.svg",
-    brand: "Sanrio Beauty",
-    description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
-    content: "150g",
-    tag: "Manos"
-  },
-  { 
-    id: "cor-016",
-    name: "Bomba de Baño ", 
-    price: "3,75", 
-    image: "/images/products/cuidado-corporal/corp16.svg",
-    brand: "Sanrio Beauty",
-    description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
-    content: "150g",
-    tag: "Manos"
-  },
-  { 
-    id: "cor-001",
-    name: "Latas de toallitas húmedas  desmaquillante", 
-    price: "1,50", 
-    image: "/images/products/cuidado-corporal/corp1.svg",
-    brand: "Sanrio Beauty",
-    description: "Perfectas para limpiar y eliminar la suciedad de tus manos y cara, son perfectas para llevar en tu bolso.",
-    content: "100ml",
     tag: "Manos"
   },
   { 
@@ -1026,38 +1239,38 @@ export const fraganciasProducts: Product[] = [
 export const accesoriosProducts: Product[] = [
   { 
     id: "acc-001",
-    name: "Pinzas de Depilar Pusheen", 
+    name: "SET DE ESPONJA PARA POLVO", 
     price: "2,50", 
     image: "/images/products/accesorios/ac1.svg",
-    brand: "Pusheen",
-    description: "Pinzas de depilar de alta precisión con adorable diseño de Pusheen. Agarre cómodo y efectivo.",
+    brand: "AMY BEAUTY",
+    description: "Disponible en 4 colores ; Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
     content: "1 unidad"
   },
   { 
     id: "acc-002",
-    name: "Set de Pinceles Maquillaje Hello Kitty", 
-    price: "8,99", 
+    name: "SET DE ESPONJA PARA POLVO ", 
+    price: "2,50", 
     image: "/images/products/accesorios/ac2.svg",
-    brand: "Sanrio Beauty",
-    description: "Set de 5 pinceles esenciales con diseño de Hello Kitty. Cerdas suaves y mango ergonómico.",
+    brand: "AMY BEAUTY",
+    description: "Disponible en 4 colores ; Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
     content: "5 pinceles"
   },
   { 
     id: "acc-003",
-    name: "Esponja de Maquillaje Forma Corazón", 
-    price: "3,50", 
+    name: "SET DE ESPONJA PARA POLVO", 
+    price: "2,50", 
     image: "/images/products/accesorios/ac3.svg",
-    brand: "Beauty Tools",
-    description: "Esponja de maquillaje en forma de corazón para aplicación perfecta de base y corrector.",
+    brand: "AMY BEAUTY",
+    description: "Disponible en 4 colores ; Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
     content: "1 unidad"
   },
   { 
     id: "acc-004",
-    name: "Porta Brochas de Viaje Kuromi", 
-    price: "5,99", 
+    name: "SET DE ESPONJA PARA POLVO", 
+    price: "2,50", 
     image: "/images/products/accesorios/ac4.svg",
-    brand: "Sanrio Beauty",
-    description: "Estuche portátil para brochas con diseño de Kuromi. Protege tus herramientas de maquillaje.",
+    brand: "AMY BEAUTY",
+    description: "Disponible en 4 colores ; Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
     content: "1 unidad"
   },
   { 
@@ -1071,20 +1284,20 @@ export const accesoriosProducts: Product[] = [
   },
   { 
     id: "acc-006",
-    name: "Cepillo para Pelo Hello Kitty", 
-    price: "6,50", 
+    name: "ESPONJA DESMAQUILLANTE ", 
+    price: "1,50", 
     image: "/images/products/accesorios/ac6.svg",
-    brand: "Sanrio Beauty",
-    description: "Cepillo desenredante con diseño de Hello Kitty. Cerdas flexibles que no dañan el cabello.",
+    brand: "AMY BEAUTY",
+    description: "Accesorio cosmético reutilizables y lavables para eliminar el maquillaje e impurezas de los poros con material de microfibra suave para la piel. ",
     content: "1 unidad"
   },
   { 
     id: "acc-007",
-    name: "Espejo Compacto My Melody", 
-    price: "4,99", 
+    name: "ESPONJA DESMAQUILLANTE ", 
+    price: "1,50", 
     image: "/images/products/accesorios/ac7.svg",
-    brand: "Sanrio Beauty",
-    description: "Espejo compacto con doble cara (normal y aumento) decorado con My Melody. Ideal para el bolso.",
+    brand: "AMY BEAUTY",
+    description: "Accesorio cosmético reutilizables y lavables para eliminar el maquillaje e impurezas de los poros con material de microfibra suave para la piel. ",
     content: "1 unidad"
   },
 ];
