@@ -430,6 +430,66 @@ const maquillaje_Labiales: Product[] = [
     content: "1 Unidad",
     tag: "Labiales"
   },
+  {
+    id: "maq-036",
+    name: "LIPGLOSS CANDY", 
+    price: "0,75", 
+    image: "/images/products/maquillaje/maq35.svg",
+    brand: "S.F.R COLOR",
+    description: "Hidratante y nutritivo disponibles en varios tonos afrutados para dar brillo a tus labios.",
+    content: "1 Unidad",
+    tag: "Labiales" 
+  },
+  {
+    id: "maq-037",
+    name: "BÁLSAMO LABIAL", 
+    price: "2,50", 
+    image: "/images/products/maquillaje/maq36.svg",
+    brand: "USHA",
+    description: "Bálsamo labial hidratante y nutritivo para dar brillo a tus labios disponibles en varios tonos.  ",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-038",
+    name: "MASCARILLA DE LABIOS", 
+    price: "3,00", 
+    image: "/images/products/maquillaje/maq37.svg",
+    brand: "FEBBLE",
+    description: "Hidratante y nutritivo disponibles en varios tonos afrutados para dar brillo a tus labios con aromas de arándanos y aloe vera.  ",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-039",
+    name: "SWEETY LIP BALM", 
+    price: "2,25", 
+    image: "/images/products/maquillaje/maq38.svg",
+    brand: "FEBBLE",
+    description: "Bálsamo labial hidratante de larga duración que aporta brillo y color a tus labios disponibles. ",
+    content: "6 colores",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-040",
+    name: "LABIALES EN BARRA", 
+    price: "1,50", 
+    image: "/images/products/maquillaje/maq39.svg",
+    brand: "KARITE",
+    description: "Labial cremoso mate de alta pigmentacion . ",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-041",
+    name: "LIP GLOSS VOLUMINIZADOR DE LABIOS  ", 
+    price: "1,90", 
+    image: "/images/products/maquillaje/maq40.svg",
+    brand: "USHA",
+    description: "Brillo voluminizador o hinchador de labios con glitter  causa una sensación de hormigueo o picor a tus labios debido a su efecto voluminizador . ",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
   // ↓ Agregar más productos de LABIALES aquí ↓
 ];
 
