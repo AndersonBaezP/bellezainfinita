@@ -37,9 +37,11 @@ export const WHATSAPP_NUMBER = "593997393838";
 
 // Imágenes del carrusel
 export const carouselImages: CarouselImage[] = [
-  { src: "/images/carousel/carpor.jpg", alt: "Paleta de sombras 1" },
-  { src: "/images/carousel/car2.jpg", alt: "Paleta de sombras 2" },
-  { src: "/images/carousel/car3.png", alt: "Paleta de sombras 3" },
+  { src: "/images/carousel/1.png", alt: "Paleta de sombras 1" },
+  { src: "/images/carousel/enero.png", alt: "Paleta de sombras 0" },
+  { src: "/images/carousel/lab.png", alt: "Paleta de sombras 2" },
+  { src: "/images/carousel/lab1.png", alt: "Paleta de sombras 3" },
+  { src: "/images/carousel/paletam.png", alt: "Paleta de sombras 4" },
 ];
 
 // Items de navegación con rutas reales
