@@ -126,16 +126,6 @@ const maquillaje_Rostro: Product[] = [
     tag: "Rostro"
   },
   { 
-    id: "maq-002",
-    name: "Esmalte de uñas Crema My Melody", 
-    price: "2,99", 
-    image: "/images/products/maquillaje/maq2.svg",
-    brand: "Sanrio Beauty",
-    description: "Esmalte cremoso con diseño kawaii de My Melody. Colores vibrantes y larga duración.",
-    content: "10ml",
-    tag: "Rostro"
-  },
-  { 
     id: "maq-003",
     name: "HIGHLIGHT ILUMINADOR DE ROSTRO", 
     price: "2,50", 
@@ -145,6 +135,16 @@ const maquillaje_Rostro: Product[] = [
     content: "8g",
     tag: "Rostro"
   },
+  { 
+    id: "maq-004",
+    name: "POLVO TRANSLÚCIDO", 
+    price: "4,00", 
+    image: "/images/products/maquillaje/maq4.svg",
+    brand: "KARITE",
+    description: "Ayuda a controlar el brillo graso y minimizar los poros para un acabado mate y duradero.",
+    content: "12 colores",
+    tag: "Rostro"
+  },
   // ↓ Agregar más productos de ROSTRO aquí ↓
 ];
 
@@ -152,16 +152,7 @@ const maquillaje_Rostro: Product[] = [
 // LABIALES (maq4 - maq15)
 // ─────────────────────────────────────────────────────────────────────────────
 const maquillaje_Labiales: Product[] = [
-  { 
-    id: "maq-004",
-    name: "Paleta de Sombras Teléfono Barbie", 
-    price: "8,95", 
-    image: "/images/products/maquillaje/maq4.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de teléfono retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
-    tag: "Labiales"
-  },
+  
   { 
     id: "maq-005",
     name: "ACEITE LABIAL SANDIA", 
@@ -203,16 +194,6 @@ const maquillaje_Labiales: Product[] = [
     tag: "Labiales"
   },
   { 
-    id: "maq-009",
-    name: "Paleta de Sombras Telafone Barbie", 
-    price: "8,95", 
-    image: "/images/products/maquillaje/maq9.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de telafone retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
-    tag: "Labiales"
-  },
-  { 
     id: "maq-010",
     name: "Paleta de Sombras Telafone Barbie", 
     price: "8,95", 
@@ -224,22 +205,12 @@ const maquillaje_Labiales: Product[] = [
   },
   { 
     id: "maq-011",
-    name: "Paleta de Sombras Telafone Barbie", 
-    price: "8,95", 
+    name: "JUEGO DE LAPIZ LABIAL", 
+    price: "2,50", 
     image: "/images/products/maquillaje/maq11.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de telafone retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
-    tag: "Labiales"
-  },
-  { 
-    id: "maq-012",
-    name: "Paleta de Sombras Telafone Barbie", 
-    price: "8,95", 
-    image: "/images/products/maquillaje/maq12.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de telafone retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
+    brand: "USHA",
+    description: "Vibrantes ofrece un acabado antiadherente que dura todo el día.",
+    content: "12 Tonos",
     tag: "Labiales"
   },
   { 
@@ -351,16 +322,6 @@ const maquillaje_Labiales: Product[] = [
     description: "Brillo labial hidratantes frutales magico combina los beneficios de un aceite labial nutritivo con la capacidad de dar un toque de color según el ph.",
     content: "3 Aromas",
     tag: "Labiales" 
-  },
-  {
-    id: "maq-028",
-    name: "P.H.A.T  JUICY LIP GLOW OIL ",
-    price: "7,00", 
-    image: "/images/products/maquillaje/maq28.svg",
-    brand: "USHA",
-    description: "Hidratante labial o aplícalo después de la aplicación del lápiz labial para un efecto brillante. ",
-    content: "Tonos 10 - 11",
-    tag: "Labiales"
   },
   {
     id: "maq-029",
@@ -666,26 +627,6 @@ const cuidadoFacial_Mascarillas: Product[] = [
     content: "50ml",
     tag: "Mascarillas"
   },
-  { 
-    id: "fac-005",
-    name: "MASCARILLA FACIAL RICE  ", 
-    price: "0,75", 
-    image: "/images/products/cuidado-facial/fac5.svg",
-    brand: "KARITE",
-    description: "Mascarilla en velo facial aporta vitamina E,B1 y B3  ayudan a revitalizar e hidratación de la piel contiene ingredientes naturales que dejarán tu piel con suavidad y delicadeza. ",
-    content: "30ml",
-    tag: "Mascarillas"
-  },
-  { 
-    id: "fac-006",
-    name: "MASCARILLA FACIAL RICE  ", 
-    price: "0,75", 
-    image: "/images/products/cuidado-facial/fac6.svg",
-    brand: "KARITE",
-    description: "Mascarilla en velo facial aporta vitamina E,B1 y B3  ayudan a revitalizar e hidratación de la piel contiene ingredientes naturales que dejarán tu piel con suavidad y delicadeza. ",
-    content: "30ml",
-    tag: "Mascarillas"
-  },
   // ↓ Agregar más productos de MASCARILLAS aquí ↓
 ];
 
@@ -768,62 +709,62 @@ const corporal_Manos: Product[] = [
   },
   { 
     id: "cor-002",
-    name: "Spray Limpiador y Perfumante Kuromi", 
-    price: "4,99", 
+    name: "TOALLITAS HÚMEDAS LATAS", 
+    price: "1,25", 
     image: "/images/products/cuidado-corporal/corp2.svg",
-    brand: "Sanrio Beauty",
-    description: "Spray con el estilo rebelde de Kuromi. Fragancia intensa y efectiva limpieza.",
-    content: "100ml",
+    brand: "LITTLE",
+    description: "Mini toallitas húmedas portátiles en latas con diseño de astronauta ideales para limpieza rápida de manos y rostro.",
+    content: "1 Lata",
     tag: "Manos"
   },
   { 
     id: "cor-003",
-    name: "Spray Limpiador Cinnamoroll", 
-    price: "4,99", 
+    name: "TOALLITAS HÚMEDAS LATAS ", 
+    price: "1,25", 
     image: "/images/products/cuidado-corporal/corp3.svg",
-    brand: "Sanrio Beauty",
-    description: "Spray suave con aroma dulce inspirado en Cinnamoroll. Perfecto para uso diario.",
-    content: "100ml",
+    brand: "LITTLE",
+    description: "Mini toallitas húmedas portátiles en latas con diseño de astronauta ideales para limpieza rápida de manos y rostro.",
+    content: "1 Lata",
     tag: "Manos"
   },
   { 
     id: "cor-004",
-    name: "Bomba de Baño Efervescente Hello Kitty", 
-    price: "3,75", 
+    name: "TOALLITAS HÚMEDAS LATAS ", 
+    price: "1,25", 
     image: "/images/products/cuidado-corporal/corp4.svg",
-    brand: "Sanrio Beauty",
-    description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
-    content: "150g",
+    brand: "LITTLE",
+    description: "Mini toallitas húmedas portátiles en latas con diseño de astronauta ideales para limpieza rápida de manos y rostro.",
+    content: "1 Lata",
     tag: "Manos"
   },
   { 
     id: "cor-005",
-    name: "Bomba de Baño Efervescente Hello Kitty", 
-    price: "3,75", 
+    name: "TOALLITAS HÚMEDAS LATAS ", 
+    price: "1,25", 
     image: "/images/products/cuidado-corporal/corp5.svg",
-    brand: "Sanrio Beauty",
-    description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
-    content: "150g",
+    brand: "LITTLE",
+    description: "Mini toallitas húmedas portátiles en latas con diseño de astronauta ideales para limpieza rápida de manos y rostro.",
+    content: "1 Lata",
     tag: "Manos"
   },
   { 
     id: "cor-006",
-    name: "Bomba de Baño Efervescente Hello Kitty", 
-    price: "3,75", 
+    name: "CREMA DE MANOS ÁLOE VERA", 
+    price: "2,50", 
     image: "/images/products/cuidado-corporal/corp6.svg",
-    brand: "Sanrio Beauty",
-    description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
-    content: "150g",
+    brand: "USHA",
+    description: "Crema de manos de rápida absorción su textura hidratante sin dejar sensación pegajosa contiene ácido hialurónico.",
+    content: "40 gr",
     tag: "Manos"
   },
   { 
     id: "cor-007",
-    name: "Bomba de Baño Efervescente Hello Kitty", 
-    price: "3,75", 
+    name: "CREMA DE MANOS ÁLOE VERA", 
+    price: "2,50", 
     image: "/images/products/cuidado-corporal/corp7.svg",
-    brand: "Sanrio Beauty",
-    description: "Bomba de baño efervescente con forma de Hello Kitty. Aromas relajantes y colores vibrantes.",
-    content: "150g",
+    brand: "USHA",
+    description: "Crema de manos de rápida absorción su textura hidratante sin dejar sensación pegajosa contiene ácido hialurónico.",
+    content: "40 gr",
     tag: "Manos"
   },
   // ↓ Agregar más productos de MANOS aquí ↓
@@ -1260,7 +1201,7 @@ const fragancias_Ambientadores: Product[] = [
     price: "13,00", 
     image: "/images/products/fragancias/fra21.svg",
     brand: "THE FRUIT COMPANY",
-    description: "Ambientador mikado con aroma a nube de colores, ideal para perfumar y decorar tu hogar con un toque dulce y acogedor.",
+    description: "Ambientador mikado nube de colores con delicioso aroma frutal a fresa ,caramelo , vainilla y haba tonca 0% alcohol y extractos naturales con una duración de 60 días.",
     content: "5 Unidades",
     tag: "Ambientadores"
   },
@@ -1270,7 +1211,7 @@ const fragancias_Ambientadores: Product[] = [
     price: "13,00", 
     image: "/images/products/fragancias/fra22.svg",
     brand: "THE FRUIT COMPANY",
-    description: "Ambientador mikado con aroma a osito de gominola, ideal para perfumar y decorar tu hogar con un toque dulce y acogedor.",
+    description: "Ambientador mikado osito de gominola con delicioso aroma frutal a fresa, platano , melón,Jazmin y vainilla de Tahití 0% alcohol y extractos naturales con una duración de 60 días.",
     content: "5 Unidades",
     tag: "Ambientadores"
   }, 
@@ -1280,7 +1221,7 @@ const fragancias_Ambientadores: Product[] = [
     price: "13,00", 
     image: "/images/products/fragancias/fra23.svg",
     brand: "THE FRUIT COMPANY",
-    description: "Ambientador mikado con aroma a chicle de fresa, ideal para perfumar y decorar tu hogar con un toque dulce y acogedor.",
+    description: "Ambientador mikado de chicle de fresa con delicioso aroma frutal a cereza , naranja,fresa , anís y fondo gourmand frambuesa avainillada 0% alcohol y extractos naturales con una duración de 60 días.",
     content: "5 Unidades",
     tag: "Ambientadores"
   },
@@ -1294,19 +1235,9 @@ const fragancias_Ambientadores: Product[] = [
     content: "75 ml",
     tag: "Ambientadores"
   },
-  { 
-    id: "fra-025",
-    name: "AMBIENTADOR FRUTA NARANJA TROPICAL", 
-    price: "15,00", 
-    image: "/images/products/fragancias/fra25.svg",
-    brand: "THE FRUIT COMPANY",
-    description: "Ambientador con mezcla exótica de fragancia naranja tropical para un hogar lleno de energía y fuerza. ",
-    content: "75 ml",
-    tag: "Ambientadores"
-  },
   {
     id: "fra-029",
-    name: "AMBIENTADOR COKTAIL TROPICA", 
+    name: "AMBIENTADOR COCKTAIL TROPICAL", 
     price: "15,00", 
     image: "/images/products/fragancias/fra29.svg",
     brand: "THE FRUIT COMPANY",
@@ -1320,19 +1251,9 @@ const fragancias_Ambientadores: Product[] = [
     price: "15,00", 
     image: "/images/products/fragancias/fra30.svg",
     brand: "THE FRUIT COMPANY",
-    description: "Ambientador con mezcla exótica de frutas tropicales para un hogar lleno de energía y fuerza.",
+    description: "Ambientador infusión vitamin+ contiene fruta desidratada 100% natural con delicioso aroma para un hogar optimista cargado de vitalidad y felicidad aroma fresco y cítrico.",
     content: "75 ml",
     tag: "Ambientadores"  
-  },
-  {
-    id: "fra-031",
-    name: "AMBIENTADOR FRUTA DE DRAGÓN", 
-    price: "15,00", 
-    image: "/images/products/fragancias/fra31.svg",
-    brand: "THE FRUIT COMPANY",
-    description: "Ambientador con mezcla exótica de frutas tropicales para un hogar lleno de energía y fuerza.",
-    content: "75 ml",
-    tag: "Ambientadores"
   },
 
   // ↓ Agregar más AMBIENTADORES aquí ↓
@@ -1384,15 +1305,6 @@ export const accesoriosProducts: Product[] = [
     image: "/images/products/accesorios/ac4.svg",
     brand: "AMY BEAUTY",
     description: "Disponible en 4 colores ; Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
-    content: "1 unidad"
-  },
-  { 
-    id: "acc-005",
-    name: "Lima de Uñas Gatito Pusheen", 
-    price: "1,50", 
-    image: "/images/products/accesorios/ac5.svg",
-    brand: "Pusheen",
-    description: "Lima de uñas con forma de gatito Pusheen. Doble cara para dar forma y suavizar.",
     content: "1 unidad"
   },
   { 
