@@ -16,6 +16,7 @@ export interface Product {
 export interface CarouselImage {
   src: string;
   alt: string;
+  href?: string; // Nuevo campo opcional para redirección
 }
 
 export interface NavigationItem {
@@ -38,10 +39,9 @@ export const WHATSAPP_NUMBER = "593997393838";
 // Imágenes del carrusel
 export const carouselImages: CarouselImage[] = [
   { src: "/images/carousel/1.png", alt: "Paleta de sombras 1" },
-  { src: "/images/carousel/enero.png", alt: "Paleta de sombras 0" },
-  { src: "/images/carousel/lab.png", alt: "Paleta de sombras 2" },
-  { src: "/images/carousel/lab1.png", alt: "Paleta de sombras 3" },
-  { src: "/images/carousel/paletam.png", alt: "Paleta de sombras 4" },
+  { src: "/images/carousel/caramelera.jpeg", alt: "Paleta de sombras 0", href: "/caramelera" },
+  { src: "/images/carousel/promo.jpeg", alt: "Paleta de sombras 2", href: "/bolsitas-de-sorpresas" },
+  { src: "/images/carousel/2.png", alt: "Paleta de sombras 3", href: "/paleta-de-labiales" },
 ];
 
 // Items de navegación con rutas reales
@@ -195,12 +195,12 @@ const maquillaje_Labiales: Product[] = [
   },
   { 
     id: "maq-010",
-    name: "Paleta de Sombras Telafone Barbie", 
-    price: "8,95", 
-    image: "/images/products/maquillaje/maq10.svg",
-    brand: "Barbie Beauty",
-    description: "Paleta de sombras con forma de telafone retro Barbie. Incluye 12 tonos pigmentados y versátiles.",
-    content: "12 colores",
+    name: "BÁLSAMO LABIAL ", 
+    price: "1,00", 
+    image: "/images/products/maquillaje/maq44.svg",
+    brand: "USHA",
+    description: "Bálsamo labial aporta brillo y color a tus labios con aroma a fresa.",
+    content: "1 Unidad",
     tag: "Labiales"
   },
   { 
@@ -396,11 +396,11 @@ const maquillaje_Labiales: Product[] = [
   {
     id: "maq-036",
     name: "LIPGLOSS CANDY", 
-    price: "0,75", 
+    price: "1,75", 
     image: "/images/products/maquillaje/maq35.svg",
     brand: "S.F.R COLOR",
-    description: "Hidratante y nutritivo disponibles en varios tonos afrutados para dar brillo a tus labios.",
-    content: "1 Unidad",
+    description: " Lip gloss en forma de chupetes hidratantes para tus labios.",
+    content: "4 Tonos",
     tag: "Labiales" 
   },
   {
@@ -450,6 +450,36 @@ const maquillaje_Labiales: Product[] = [
     image: "/images/products/maquillaje/maq40.svg",
     brand: "USHA",
     description: "Brillo voluminizador o hinchador de labios con glitter  causa una sensación de hormigueo o picor a tus labios debido a su efecto voluminizador . ",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-042",
+    name: "LIP BALM", 
+    price: "3,50", 
+    image: "/images/products/maquillaje/maq41.svg",
+    brand: "USHA",
+    description: "Bálsamos labiales en diseño de oso ideal para uso diario, brindando hidratación con un toque divertido y tierno. ",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-043",
+    name: "LIP BALM", 
+    price: "2,50", 
+    image: "/images/products/maquillaje/maq42.svg",
+    brand: "MAGIC",  
+    description: "Bálsamos labiales en diseño de oso ideal para uso diario, brindando hidratación con un toque divertido y tierno.",
+    content: "1 Unidad",
+    tag: "Labiales"
+  },
+  {
+    id: "maq-044",
+    name: "LIP OIL", 
+    price: "2,00", 
+    image: "/images/products/maquillaje/maq43.svg",
+    brand: "USHA",  
+    description: "Aceites labiales USHAS Lip Oil con fragancias de paleta (amarillo), helado (morado) y rosquilla (rojo). Tienen una fórmula ligera no pegajosa que hidrata los labios.",
     content: "1 Unidad",
     tag: "Labiales"
   },
@@ -1093,12 +1123,12 @@ const fragancias_Perfumes: Product[] = [
   },
   { 
     id: "fra-019",
-    name: "Spray Corporal Vainilla", 
-    price: "8,50", 
+    name: "BODY AND HAIR MIST SUMMER HOLIDAYS", 
+    price: "15,00", 
     image: "/images/products/fragancias/fra15.svg",
-    brand: "Sweet Scents", 
-    description: "Spray corporal con aroma envolvente de vainilla. Perfecto para luego del baño.",
-    content: "200ml",
+    brand: "THE FRUIT COMPANY", 
+    description: "Splash corporal y para  cabello con glitter hidratante y refresca tu piel y cabello con su fórmula vegana enriquecida con un toque de brillo fragancia a maracuya, violeta y jazmín ideal para usar en cualquier momento.",
+    content: "200 ml",
     tag: "Perfumes"
   },
   // ↓ Agregar más PERFUMES aquí ↓
@@ -1133,7 +1163,7 @@ const fragancias_Velas: Product[] = [
     name: "VELA PERFUMADA DE FRESA NATA ", 
     price: "12,00",  
     image: "/images/products/fragancias/fra28.svg",
-    brand: "THE FRUIT COMPANY", 
+    brand: "THE FRUIT COMPANY",
     description: "Vela perfumada con cera 100% vegetal con una duración de 40 horas.",
     content: "150 gr",
     tag: "Velas"
@@ -1327,6 +1357,59 @@ export const accesoriosProducts: Product[] = [
   },
 ];
 
+// Productos - Caramelera (solo accesible por carrusel)
+export const carameleraProducts: Product[] = [
+  {
+    id: "car-001",
+    name: "🍭CARAMELERA DE LABIALES🍭",
+    price: "10,00",
+    image: "/images/products/caramelera/car.svg",
+    brand: "KAWAII",
+    description: "Déjate enamorar por nuestra Caramelera de Labiales KAWAII, una presentación tan dulce como un caramelo 🍭. Inspirada en los colores suaves y formas tiernas de los caramelos, esta caramelera reúne labiales con diseños adorables perfectos para quienes aman lo cute y lo original. Cada labial viene con envases adorables que parecen pequeños caramelos, ideales para regalar o consentirte. 💕 ",
+    content: "Bolsa incluye 4 labiales de la caramelera",
+    tag: "Caramelera"
+  },
+];
+
+// Productos - Bolsitas de Sorpresas
+export const bolsitasDeSorpresasProducts: Product[] = [
+  {
+    id: "bol-001",
+    name: "💖CONOS DE LABIALES KAWAII💖 ",
+    price: "9,95",
+    image: "/images/products/conitos/con1.svg",
+    brand: "KAWAII",
+    description: "Nuestros Conos de Labiales KAWAII son el detalle perfecto que combina maquillaje y dulzura en una presentación inspirados en los conos de caramelo, cada set viene cuidadosamente armado y envuelto su empaque transparente con lazo le da un toque delicado, ideal para regalar o sorprender,creando una experiencia visual tierna, colorida y muy especial Productos como LIPGLOSS , LIP MASK,LIP BALM y GLOSS.  ✨Un regalo que parece caramelo… pero es maquillaje que enamora ✨ ",
+    content: "Cono de 4 labiales",
+    tag: "Conitos"
+  },
+];
+
+// Productos - Paleta de Labiales
+export const paletaDeLabialesProducts: Product[] = [
+  {
+    id: "plb-001",
+    name: "🍭PALETAS DE LABIALES A SUERTE🍭 ",
+    price: "12,50",
+    image: "/images/products/paleta-labiales/pal.svg", // Placeholder image
+    brand: "GlossyCandy",
+    description: "Sorpresa y Diversión en Cada Bolsita! Nuestra Paleta de Labiales a la Suerte es una experiencia única y divertida . 💖 Cada compra incluye una bolsita sorpresa que se arma de forma aleatoria utilizando una pala, con la cual se seleccionan directamente de nuestra paleta llena de colores, texturas y diseños encantadores. Cantidad aproximada de 5 a 7 labiales por paleta. ",
+    content: "7 Unidades Garantizadas",
+    tag: "Paleta de Labiales"
+  },
+  {
+    id: "plb-002",
+    name: "💖PALETAS DE LABIALES A SUERTE💖",
+    price: "20,95",
+    image: "/images/products/paleta-labiales/pal1.svg", // Placeholder image
+    brand: "GlossyCandy",
+    description: "¡Puedes agregar más labiales a suertes! Si deseas más cantidad, puedes añadir labiales extra y aumentar la sorpresa. Los modelos, colores y marcas no se eligen, ya que la magia está en la sorpresa. Cada bolsita es diferente y armada con amor. 💥 Si te encanta probar cosas nuevas, los productos sorpresa y vivir una experiencia divertida, ¡esta paleta de labiales a suertes es para ti!  ",
+    content: "10 a 12 Unidades Garantizadas",
+    tag: "Paleta de Labiales"
+  },
+];
+
+
 // Función helper para obtener todos los productos
 export const getAllProducts = (): Product[] => {
   return [
@@ -1336,6 +1419,9 @@ export const getAllProducts = (): Product[] => {
     ...cuidadoCorporalProducts,
     ...fraganciasProducts,
     ...accesoriosProducts,
+    ...carameleraProducts,
+    ...bolsitasDeSorpresasProducts,
+    ...paletaDeLabialesProducts,
   ];
 };
 

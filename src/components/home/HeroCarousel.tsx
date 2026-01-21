@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation"; // Importar useRouter
 import { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -11,11 +12,13 @@ export function HeroCarousel() {
     align: "center",
     skipSnaps: false,
     dragFree: false,
-    containScroll: false,
+// OJO: Cambiado a `false` para permitir clicks. Si `true`, puede interferir.
+    containScroll: false, 
     loop: true,
   });
 
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const router = useRouter(); // Inicializar el router
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
@@ -49,6 +52,13 @@ export function HeroCarousel() {
     };
   }, [emblaApi, onSelect]);
 
+  // Manejar el click en un slide
+  const handleSlideClick = (href) => {
+    if (href) {
+      router.push(href);
+    }
+  };
+
   return (
     <section className="container mx-auto px-4 py-6 sm:py-8">
       <div className="relative group">
@@ -58,7 +68,11 @@ export function HeroCarousel() {
         >
           <div className="flex">
             {carouselImages.map((image, index) => (
-              <div key={index} className="flex-[0_0_100%] min-w-0 relative">
+              <div
+                key={index}
+                className={`flex-[0_0_100%] min-w-0 relative ${image.href ? 'cursor-pointer' : ''}`}
+                onClick={() => handleSlideClick(image.href)}
+              >
                 <div className="relative aspect-video sm:aspect-[16/9] md:aspect-[21/9] overflow-hidden">
                   <Image
                     src={image.src}
@@ -109,3 +123,4 @@ export function HeroCarousel() {
     </section>
   );
 }
+
