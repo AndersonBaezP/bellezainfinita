@@ -326,7 +326,7 @@ const maquillaje_Labiales: Product[] = [
   {
     id: "maq-029",
     name: "LIPGLOSS",
-    price: "7,00",  
+    price: "3,50",  
     image: "/images/products/maquillaje/maq29.svg",
     brand: "FEBBLE",  
     description: "Proporciona un acabado brillante e hidratante dejando los labios con un aspecto jugoso reacciona dependiendo al pH de los labios creando un tono rosa .",
@@ -866,7 +866,7 @@ const corporal_Ducha: Product[] = [
   },
   { 
     id: "cor-023",
-    name: "VEXFOLIANTE CORPORAL 2 EN 1 PIÑA", 
+    name: "EXFOLIANTE CORPORAL 2 EN 1 PIÑA", 
     price: "15,00", 
     image: "/images/products/cuidado-corporal/corp23.svg",
     brand: "THE FRUIT COMPANY",
@@ -1037,7 +1037,7 @@ const fragancias_Perfumes: Product[] = [
     price: "15,00", 
     image: "/images/products/fragancias/fra6.svg",
     brand: "THE FRUIT COMPANY",
-    description: "Splash corporal y para  cabello con glitter hidratante y refresca tu piel y cabello con su fórmula vegana enriquecida con un toque de brillo fragancia jugosa de fresa , manzanas y caña de azúcar ideal para usar en cualquier momento.",
+    description: "Splash corporal y para  cabello con glitter hidratante y refresca tu piel y cabello con su fórmula vegana enriquecida con un toque de brillo fragancia jugosa de piña,coco y mango ideal para usar en cualquier momento.",
     content: "200 ml",
     tag: "Perfumes"
   },
@@ -1047,7 +1047,7 @@ const fragancias_Perfumes: Product[] = [
     price: "15,00", 
     image: "/images/products/fragancias/fra7.svg",
     brand: "THE FRUIT COMPANY",
-    description: "Splash corporal y para  cabello con glitter hidratante y refresca tu piel y cabello con su fórmula vegana enriquecida con un toque de brillo fragancia jugosa de fresa , manzanas y caña de azúcar ideal para usar en cualquier momento.",
+    description: "Splash corporal y para  cabello con glitter hidratante y refresca tu piel y cabello con su fórmula vegana enriquecida con un toque de brillo fragancia sorbete de mora y pera ideal para usar en cualquier momento.",
     content: "200 ml",
     tag: "Perfumes"
   },
