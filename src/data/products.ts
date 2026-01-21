@@ -66,44 +66,60 @@ export const categories: Category[] = [
 export const novedadesProducts: Product[] = [
   { 
     id: "nov-001",
-    name: "Pinzas de Depilar Pusheen", 
+    name: "LLAVERO ELEGANTE CON MOÑO", 
     price: "2,50", 
-    image: "/images/products/novedades/Glossy Candy1.svg",
-    brand: "Pusheen",
-    description: "Pinzas de depilar con diseño adorable de Pusheen. Perfectas para darle un toque kawaii a tu rutina de belleza.",
-    content: "1 unidad",
-    tag: "Oferta"
+    image: "/images/products/novedades/nov.svg",
+    description: "Llavero elegante con moño perfecto para mantener tu labial contigo en todo momento.",
+    content: "1 Unidad",
+    tag: "Llavero"
   },
   { 
     id: "nov-002",
-    name: "Ambientador mikado - Nube de Colores", 
-    price: "3,50", 
-    image: "/images/products/novedades/colores.svg",
-    brand: "Magic Beauty",
+    name: "LLAVERO ELEGANTE CON MOÑO", 
+    price: "2,50", 
+    image: "/images/products/novedades/nov1.svg",
     description: "Colorete que cambia de color según el PH de tu piel, adaptándose a tu tono natural para un rubor perfecto.",
-    content: "5g",
-    tag: "Nuevo Producto"
+    content: "1 Unidad",
+    tag: "Llavero"
   },
   { 
     id: "nov-003",
-    name: "Ushas Make-Up Remover", 
-    price: "1,50", 
-    image: "/images/products/novedades/prod3.svg",
-    brand: "Kawaii Fresh",
+    name: "LLAVERO ELEGANTE CON MOÑO", 
+    price: "2,50", 
+    image: "/images/products/novedades/nov2.svg",
     description: "Delicioso ambientador con aroma a batido de fresa que mantendrá tu coche con un olor dulce y agradable.",
-    content: "8ml",
-    tag: "Edición Limitada"
+    content: "1 Unidad",
+    tag: "Llavero"
   },
   { 
     id: "nov-004",
-    name: "Sérum Facial Naranja + Carbón", 
-    price: "4,99", 
-    image: "/images/products/novedades/prod4.svg",
-    brand: "Natural Glow",
+    name: "LLAVERO ELEGANTE CON MOÑO", 
+    price: "2,50", 
+    image: "/images/products/novedades/nov3.svg",
     description: "Sérum facial con vitamina C de naranja y carbón activado para una piel radiante y libre de impurezas.",
-    content: "30ml",
-    tag: "2x1"
+    content: "1 Unidad",
+    tag: "Llavero"
   },
+  {
+    id: "nov-005",
+    name: "SET DE REGALO DE COCO", 
+    price: "24,00", 
+    image: "/images/products/novedades/nov4.svg",
+    brand: "THE FRUIT COMPANY",
+    description: "Este Set de Regalo de Coco no solo cuida y embellece tu piel, sino que también ofrece una experiencia sensorial completa con el irresistible aroma a coco. ¡Regálate o regala este set y disfruta de un verano lleno de frescura y belleza con The Fruit Company!Incluye labial hidratante con aroma a coco,crema de manos aroma a coco,EAU toile con aroma tropical a coco y una hermosa cartuchera.",
+    content: "1 Unidad",
+    tag: "Set"  
+  },
+  {
+    id: "nov-006",
+    name: "SET DE REGALO DE FRESA NATA", 
+    price: "24,00", 
+    image: "/images/products/novedades/nov5.svg",
+    brand: "THE FRUIT COMPANY",
+    description: "Este Set de Regalo de FRESA NATA no solo cuida y embellece tu piel, sino que también ofrece una experiencia sensorial completa con el irresistible aroma a FRESA NATA¡Regálate o regala este set y disfruta de un verano lleno de frescura y belleza con The Fruit Company!Incluye labial hidratante con aroma a fresa nata,crema de manos aroma a fresa nata,EAU toile con aroma a fresa nata y una hermosa cartuchera.",
+    content: "1 Unidad",
+    tag: "Set"
+  }
 ];
 
 // Productos - Maquillaje
@@ -961,6 +977,46 @@ const corporal_Cuerpo: Product[] = [
     content: "250 ml",
     tag: "Cuerpo"
   },
+  { 
+    id: "fra-010",
+    name: "BODY AND HAIR MIST ALOHA IT’S FRIDAY ", 
+    price: "15,00", 
+    image: "/images/products/fragancias/fra6.svg",
+    brand: "THE FRUIT COMPANY",
+    description: "Splash corporal y para  cabello con glitter hidratante y refresca tu piel y cabello con su fórmula vegana enriquecida con un toque de brillo fragancia jugosa de piña,coco y mango ideal para usar en cualquier momento.",
+    content: "200 ml",
+    tag: "Cabello"
+  },
+  { 
+    id: "fra-011",
+    name: "BODY AND HAIR MIST CORAL BEACH ", 
+    price: "15,00", 
+    image: "/images/products/fragancias/fra7.svg",
+    brand: "THE FRUIT COMPANY",
+    description: "Splash corporal y para  cabello con glitter hidratante y refresca tu piel y cabello con su fórmula vegana enriquecida con un toque de brillo fragancia sorbete de mora y pera ideal para usar en cualquier momento.",
+    content: "200 ml",
+    tag: "Cabello"
+  },
+  { 
+    id: "fra-019",
+    name: "BODY AND HAIR MIST SUMMER HOLIDAYS", 
+    price: "15,00", 
+    image: "/images/products/fragancias/fra15.svg",
+    brand: "THE FRUIT COMPANY", 
+    description: "Splash corporal y para  cabello con glitter hidratante y refresca tu piel y cabello con su fórmula vegana enriquecida con un toque de brillo fragancia a maracuya, violeta y jazmín ideal para usar en cualquier momento.",
+    content: "200 ml",
+    tag: "Cabello"
+  },
+  {
+    id: "fra-022",
+    name: "BODY AND HAIR MIST BIKINI PARTY", 
+    price: "15,00", 
+    image: "/images/products/fragancias/fra32.svg",
+    brand: "THE FRUIT COMPANY", 
+    description: "Splash corporal y para cabello con glitter hidratante y refresca tu piel y cabello con su fórmula vegana enriquecida con un toque de brillo fragancia jugosa de fresa , manzanas y caña de azúcar ideal para usar en cualquier momento. ",
+    content: "200 ml",
+    tag: "Cabello"
+  },
   // ↓ Agregar más productos de CUERPO aquí ↓
 ];
 
@@ -1128,6 +1184,16 @@ const fragancias_Perfumes: Product[] = [
     image: "/images/products/fragancias/fra15.svg",
     brand: "THE FRUIT COMPANY", 
     description: "Splash corporal y para  cabello con glitter hidratante y refresca tu piel y cabello con su fórmula vegana enriquecida con un toque de brillo fragancia a maracuya, violeta y jazmín ideal para usar en cualquier momento.",
+    content: "200 ml",
+    tag: "Perfumes"
+  },
+  {
+    id: "fra-022",
+    name: "BODY AND HAIR MIST BIKINI PARTY", 
+    price: "15,00", 
+    image: "/images/products/fragancias/fra32.svg",
+    brand: "THE FRUIT COMPANY", 
+    description: "Splash corporal y para cabello con glitter hidratante y refresca tu piel y cabello con su fórmula vegana enriquecida con un toque de brillo fragancia jugosa de fresa , manzanas y caña de azúcar ideal para usar en cualquier momento. ",
     content: "200 ml",
     tag: "Perfumes"
   },
@@ -1367,6 +1433,16 @@ export const carameleraProducts: Product[] = [
     brand: "KAWAII",
     description: "Déjate enamorar por nuestra Caramelera de Labiales KAWAII, una presentación tan dulce como un caramelo 🍭. Inspirada en los colores suaves y formas tiernas de los caramelos, esta caramelera reúne labiales con diseños adorables perfectos para quienes aman lo cute y lo original. Cada labial viene con envases adorables que parecen pequeños caramelos, ideales para regalar o consentirte. 💕 ",
     content: "Bolsa incluye 4 labiales de la caramelera",
+    tag: "Caramelera"
+  },
+  {
+    id: "car-002",
+    name: "🍭CARAMELERA DE LABIALES🍭",
+    price: "18,95",
+    image: "/images/products/caramelera/car1.svg",
+    brand: "KAWAII",
+    description: "¡Más labiales, más diversión! Nuestra Caramelera de Labiales KAWAII ahora viene con aún más sorpresas dulces 🍬. Inspirada en los colores suaves y formas tiernas de los caramelos, esta caramelera reúne labiales con diseños adorables perfectos para quienes aman lo cute y lo original. Cada labial viene con envases adorables que parecen pequeños caramelos, ideales para regalar o consentirte. 💕 ",
+    content: "Bolsa incluye 8 labiales de la caramelera",
     tag: "Caramelera"
   },
 ];
