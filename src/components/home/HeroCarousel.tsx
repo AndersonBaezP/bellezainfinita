@@ -53,7 +53,7 @@ export function HeroCarousel() {
   }, [emblaApi, onSelect]);
 
   // Manejar el click en un slide
-  const handleSlideClick = (href) => {
+  const handleSlideClick = (href?: string) => {
     if (href) {
       router.push(href);
     }
