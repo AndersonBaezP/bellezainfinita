@@ -1427,7 +1427,7 @@ export const accesoriosProducts: Product[] = [
 export const carameleraProducts: Product[] = [
   {
     id: "car-001",
-    name: "🍭CARAMELERA DE LABIALES🍭",
+    name: "🍭BOLSA DE CARAMELERA🍭",
     price: "10,99",
     image: "/images/products/caramelera/car.svg",
     brand: "KAWAII",
