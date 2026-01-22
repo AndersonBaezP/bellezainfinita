@@ -81,7 +81,7 @@ export function Footer() {
               </a>
               {/* Facebook */}
               <a
-                href="https://facebook.com/tu_pagina"
+                href="https://www.facebook.com/share/1BEbVoBSP3/"
                 className="text-pink-500 hover:text-pink-600"
                 aria-label="Facebook"
                 target="_blank"
@@ -93,6 +93,22 @@ export function Footer() {
                   viewBox="0 0 24 24"
                 >
                   <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+              </a>
+              {/* YouTube */}
+              <a
+                href="https://youtube.com/@glossycandy-es?si=laQxOfwrK22GVo3W"
+                className="text-pink-500 hover:text-pink-600"
+                aria-label="YouTube"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  className="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M23.498 6.186a2.994 2.994 0 0 0-2.107-2.117C19.379 3.5 12 3.5 12 3.5s-7.379 0-9.391.569A2.994 2.994 0 0 0 .502 6.186C0 8.2 0 12 0 12s0 3.8.502 5.814a2.994 2.994 0 0 0 2.107 2.117C4.621 20.5 12 20.5 12 20.5s7.379 0 9.391-.569a2.994 2.994 0 0 0 2.107-2.117C24 15.8 24 12 24 12s0-3.8-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                 </svg>
               </a>
             </div>

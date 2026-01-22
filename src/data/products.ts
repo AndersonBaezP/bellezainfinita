@@ -1428,12 +1428,12 @@ export const carameleraProducts: Product[] = [
   {
     id: "car-001",
     name: "🍭CARAMELERA DE LABIALES🍭",
-    price: "10,00",
+    price: "10,99",
     image: "/images/products/caramelera/car.svg",
     brand: "KAWAII",
     description: "Déjate enamorar por nuestra Caramelera de Labiales KAWAII, una presentación tan dulce como un caramelo 🍭. Inspirada en los colores suaves y formas tiernas de los caramelos, esta caramelera reúne labiales con diseños adorables perfectos para quienes aman lo cute y lo original. Cada labial viene con envases adorables que parecen pequeños caramelos, ideales para regalar o consentirte. 💕 ",
-    content: "Bolsa incluye 4 labiales de la caramelera",
-    tag: "Caramelera"
+    content: "Bolsa incluye 6 labiales de la caramelera",
+    tag: "Oferta"
   },
   {
     id: "car-002",

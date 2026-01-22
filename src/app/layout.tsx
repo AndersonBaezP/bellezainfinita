@@ -9,9 +9,11 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "GlossyCandy | Tienda de Cosméticos y Maquillaje",
-  description: "Tu tienda online de productos de belleza, maquillaje, cuidado facial, corporal, fragancias y accesorios kawaii. Envío gratuito a partir de 50$ en Quito, Ecuador.",
-  keywords: ["maquillaje", "cosméticos", "belleza", "kawaii", "cuidado facial", "Ecuador", "Quito"],
+  title: "GlossyCandy | Perfumes, Cosméticos, Fragancias, Maquillaje y Más",
+  description: "GlossyCandy es tu tienda online en Ecuador para perfumes, cosméticos, fragancias, lociones, maquillaje, cuidado facial, cuidado corporal, belleza y accesorios kawaii. Compra productos originales y recibe envío gratuito a partir de $50 en Quito y todo el país.",
+  keywords: [
+    "perfumes", "cosméticos", "fragancias", "lociones", "maquillaje", "belleza", "cuidado facial", "cuidado corporal", "accesorios", "productos de belleza", "Ecuador", "Quito", "regalos", "kawaii", "tienda online"
+  ],
   icons: {
     icon: [
       { url: "/images/logos/logfav.png", sizes: "64x64", type: "image/png" },
