@@ -1442,7 +1442,7 @@ export const carameleraProducts: Product[] = [
     image: "/images/products/caramelera/car1.svg",
     brand: "KAWAII",
     description: " Déjate enamorar por nuestra Caramelera de Labiales KAWAII, una presentación tan dulce como un caramelo 🍭. Inspirada en los colores suaves y formas tiernas de los caramelos, esta caramelera reúne labiales con diseños adorables para quienes aman lo cute y lo original. 💕Los labiales con punto rojo son tintas con color.Los labiales con punto rosa son mágicos que cambian dependiendo el ph dejando un tono rosado en tus labios.Puedes elegir tus labiales, o dejarlos a nuestra elección.Dejar más alternativas en caso que estén agotadas en stock En el caso de no indicar la opción de labiales elegiremos nosotros tus labiales por ti.Bolsa incluye 4 labiales de la caramelera.",
-    content: "Bolsa incluye 8 labiales de la caramelera",
+    content: "Bolsa incluye 4 labiales de la caramelera",
     tag: "Caramelera"
   },
 ];
