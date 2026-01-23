@@ -1438,10 +1438,10 @@ export const carameleraProducts: Product[] = [
   {
     id: "car-002",
     name: "🍭CARAMELERA DE LABIALES🍭",
-    price: "18,95",
+    price: "10,00",
     image: "/images/products/caramelera/car1.svg",
     brand: "KAWAII",
-    description: "¡Más labiales, más diversión! Nuestra Caramelera de Labiales KAWAII ahora viene con aún más sorpresas dulces 🍬. Inspirada en los colores suaves y formas tiernas de los caramelos, esta caramelera reúne labiales con diseños adorables perfectos para quienes aman lo cute y lo original. Cada labial viene con envases adorables que parecen pequeños caramelos, ideales para regalar o consentirte. 💕 ",
+    description: " Déjate enamorar por nuestra Caramelera de Labiales KAWAII, una presentación tan dulce como un caramelo 🍭. Inspirada en los colores suaves y formas tiernas de los caramelos, esta caramelera reúne labiales con diseños adorables para quienes aman lo cute y lo original. 💕Los labiales con punto rojo son tintas con color.Los labiales con punto rosa son mágicos que cambian dependiendo el ph dejando un tono rosado en tus labios.Puedes elegir tus labiales, o dejarlos a nuestra elección.Dejar más alternativas en caso que estén agotadas en stock En el caso de no indicar la opción de labiales elegiremos nosotros tus labiales por ti.Bolsa incluye 4 labiales de la caramelera.",
     content: "Bolsa incluye 8 labiales de la caramelera",
     tag: "Caramelera"
   },
@@ -1479,8 +1479,8 @@ export const paletaDeLabialesProducts: Product[] = [
     price: "20,95",
     image: "/images/products/paleta-labiales/pal1.svg", // Placeholder image
     brand: "GlossyCandy",
-    description: "¡Puedes agregar más labiales a suertes! Si deseas más cantidad, puedes añadir labiales extra y aumentar la sorpresa. Los modelos, colores y marcas no se eligen, ya que la magia está en la sorpresa. Cada bolsita es diferente y armada con amor. 💥 Si te encanta probar cosas nuevas, los productos sorpresa y vivir una experiencia divertida, ¡esta paleta de labiales a suertes es para ti!  ",
-    content: "10 a 12 Unidades Garantizadas",
+    description: " Nuestra Paleta de Labiales a la Suerte es una experiencia única y divertida . 💖Cada compra incluye una bolsita sorpresa que se arma de forma aleatoria utilizando una pala, con la cual se seleccionan directamente de nuestra paleta llena de colores, los labiales se eligen al azar también puedes recibir labiales,Gloss, tintas y bálsamosCantidad aproximada de 11 a 15 labiales por paleta  (mínimo de 12 garantízados)Los modelos, colores y marcas no se eligen, ya que la magia está en la sorpresa. Cada bolsita es diferente y armada con amor. ",
+    content: "11 a 15 Unidades Garantizadas",
     tag: "Paleta de Labiales"
   },
 ];

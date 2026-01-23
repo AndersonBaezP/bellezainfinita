@@ -37,7 +37,7 @@ export function Footer() {
           <div>
             <h3 className="font-bold mb-4">CONTACTO</h3>
             <p className="text-sm text-gray-600 mb-4">
-              Valeria@bellezainfinita.ec
+              glossycandy2026@hotmail.com
             </p>
             <Button className="bg-pink-400 hover:bg-pink-500 text-white rounded-full">
               CONTACTAR
