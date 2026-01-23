@@ -39,7 +39,10 @@ export function Footer() {
             <p className="text-sm text-gray-600 mb-4">
               glossycandy2026@hotmail.com
             </p>
-            <Button className="bg-pink-400 hover:bg-pink-500 text-white rounded-full">
+            <Button
+              className="bg-pink-400 hover:bg-pink-500 text-white rounded-full"
+              onClick={() => window.location.href = 'mailto:glossycandy2026@hotmail.com'}
+            >
               CONTACTAR
             </Button>
           </div>
