@@ -78,7 +78,7 @@ export const novedadesProducts: Product[] = [
     name: "LLAVERO ELEGANTE CON MOÑO", 
     price: "2,50", 
     image: "/images/products/novedades/nov1.svg",
-    description: "Colorete que cambia de color según el PH de tu piel, adaptándose a tu tono natural para un rubor perfecto.",
+    description: "Llavero elegante con moño perfecto para mantener tu labial contigo en todo momento.",
     content: "1 Unidad",
     tag: "Llavero"
   },
@@ -87,7 +87,7 @@ export const novedadesProducts: Product[] = [
     name: "LLAVERO ELEGANTE CON MOÑO", 
     price: "2,50", 
     image: "/images/products/novedades/nov2.svg",
-    description: "Delicioso ambientador con aroma a batido de fresa que mantendrá tu coche con un olor dulce y agradable.",
+    description: "Llavero elegante con moño perfecto para mantener tu labial contigo en todo momento.",
     content: "1 Unidad",
     tag: "Llavero"
   },
@@ -96,7 +96,7 @@ export const novedadesProducts: Product[] = [
     name: "LLAVERO ELEGANTE CON MOÑO", 
     price: "2,50", 
     image: "/images/products/novedades/nov3.svg",
-    description: "Sérum facial con vitamina C de naranja y carbón activado para una piel radiante y libre de impurezas.",
+    description: "Llavero elegante con moño perfecto para mantener tu labial contigo en todo momento.",
     content: "1 Unidad",
     tag: "Llavero"
   },
@@ -1373,7 +1373,7 @@ export const accesoriosProducts: Product[] = [
     price: "2,50", 
     image: "/images/products/accesorios/ac1.svg",
     brand: "AMY BEAUTY",
-    description: "Disponible en 4 colores ; Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
+    description: "Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
     content: "1 unidad"
   },
   { 
@@ -1382,7 +1382,7 @@ export const accesoriosProducts: Product[] = [
     price: "2,50", 
     image: "/images/products/accesorios/ac2.svg",
     brand: "AMY BEAUTY",
-    description: "Disponible en 4 colores ; Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
+    description: "Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
     content: "5 pinceles"
   },
   { 
@@ -1391,7 +1391,7 @@ export const accesoriosProducts: Product[] = [
     price: "2,50", 
     image: "/images/products/accesorios/ac3.svg",
     brand: "AMY BEAUTY",
-    description: "Disponible en 4 colores ; Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
+    description: "Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
     content: "1 unidad"
   },
   { 
@@ -1400,7 +1400,7 @@ export const accesoriosProducts: Product[] = [
     price: "2,50", 
     image: "/images/products/accesorios/ac4.svg",
     brand: "AMY BEAUTY",
-    description: "Disponible en 4 colores ; Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
+    description: " Esponjas  de maquillaje AMY BEAUTY utilizadas para aplicar polvo suelto o compacto y base líquida.",
     content: "1 unidad"
   },
   { 
